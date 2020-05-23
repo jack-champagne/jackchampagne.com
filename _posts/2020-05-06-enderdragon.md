@@ -19,4 +19,4 @@ As of writing, these files still haven't been made into a webpage. Hoping after 
 3. Learn even more
 
 Talk soon,
-Champagne
+Jack
