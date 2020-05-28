@@ -8,7 +8,7 @@ This post is meant to be a list of important things to remember and apply throug
 (5/27/2020)
 * Active Learning (doing myself) is far more powerful then passive learning (watching do)
 * I don't have to do it perfect the first time, instead I should just get something down.
-* 1% of improvement every day is better than 0% (By the end of the year, that will be 3778% improvement annualy)
+* 1% of improvement every day is better than 0% (By the end of the year, that will be 3778% improvement annually)
 * Getting enough sleep is essential
 * Spending time with those around you
 
