@@ -1,0 +1,5 @@
+baseURL = "http://jackchampagne.com/"
+languageCode = "en-us"
+title = "Tidbits"
+theme = "slick"
+
