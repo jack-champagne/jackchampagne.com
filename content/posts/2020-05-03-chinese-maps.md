@@ -1,7 +1,14 @@
 ---
-title: "maps of China are broken"
-date: 2020-05-03T23:21:56-04:00
+title: Maps of China are broken
+description: Seriously, try google maps satellite view on China
+date: 2020-05-03
 draft: false
+categories:
+- Did You Know?
+tags:
+- DYY
+- Geography
+series: null
 ---
 
 Maps of China are broken

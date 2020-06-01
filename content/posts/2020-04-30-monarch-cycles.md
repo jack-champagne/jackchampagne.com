@@ -1,7 +1,14 @@
 ---
-title: "monarch generations live vastly different lengths of time"
-date: 2020-04-30T23:21:56-04:00
+title: Super-generations exist
+description: Monarch generations live vastly different lengths of time 
+date: 2020-04-30
 draft: false
+categories:
+- Did You Know?
+tags:
+- DYY
+- Science
+series: null
 ---
 
 Did you know...

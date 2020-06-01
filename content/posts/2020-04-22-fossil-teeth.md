@@ -1,7 +1,14 @@
 ---
-title: "We used to have better teeth"
-date: 2020-04-22T23:21:56-04:00
+title: We used to have better teeth
+description: Humans didn't always have cavities
+date: 2020-04-22
 draft: false
+categories:
+- Did You Know?
+tags:
+- DYY
+- Science
+series: null
 ---
 
 Did you know? ...

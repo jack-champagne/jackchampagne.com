@@ -1,7 +1,14 @@
 ---
-title: "Lightning strikes the earth 44 times per second"
-date: 2020-04-29T23:21:56-04:00
+title: Lightning strikes the earth a lot more than you think
+description: About 44 times a second!
+date: 2020-04-29
 draft: false
+categories:
+- Did You Know?
+tags:
+- DYY
+- Science
+series: null
 ---
 
 Did you know...

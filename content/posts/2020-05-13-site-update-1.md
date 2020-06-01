@@ -1,7 +1,19 @@
 ---
-title: "An update about this site"
-date: 2020-05-13T23:21:56-04:00
+title: An update about this site
+description: Changing static site generators, explaining why, looking at lots of deployment options!
+date: 2020-05-13
 draft: false
+categories:
+- Development
+- Personal
+tags:
+- Personal
+- Hugo
+- Ruby & Jekyll
+- Jamstack
+series: 
+- Development
+- Personal
 ---
 
 Hi! This is Jack. Just writing a short update on the site itself and what's going on behind the scenes =]

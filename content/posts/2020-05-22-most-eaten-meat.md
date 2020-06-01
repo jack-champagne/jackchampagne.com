@@ -1,7 +1,19 @@
 ---
-title: "the most eaten meat..."
-date: 2020-05-22T23:21:56-04:00
+title: The most eaten meat is...
+description: The answer is surprising not a surprise
+date: 2020-05-22
 draft: false
+categories:
+- Did You Know?
+- Personal
+- Journal
+tags:
+- DYY
+- Personal
+- Journal
+- Coronavirus
+series: 
+- Personal
 ---
 
 the most eaten meat in the world is chicken? Seems reasonable. Poultry is everywhere...

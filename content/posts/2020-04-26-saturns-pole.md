@@ -1,7 +1,14 @@
 ---
-title: "there's a large hexagon on saturn"
-date: 2020-04-26T23:21:56-04:00
+title: There's a large hexagon on Saturn
+description: On Saturn's North pole, there is a large atmospheric feature.
+date: 2020-04-26
 draft: false
+categories:
+- Did You Know?
+tags:
+- DYY
+- Science
+series: null
 ---
 
 Did you know...

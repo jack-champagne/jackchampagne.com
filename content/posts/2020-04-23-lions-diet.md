@@ -1,7 +1,14 @@
 ---
-title: "Lions eat cheetahs"
-date: 2020-04-23T23:21:56-04:00
+title: Lions eat cheetahs
+description: Lions will hunt cheetahs at night.
+date: 2020-04-23
 draft: false
+categories:
+- Did You Know?
+tags:
+- DYY
+- Science
+series: null
 ---
 
 Did you know? ...

@@ -1,7 +1,15 @@
 ---
-title: "List of Important things"
-date: 2020-05-27T23:21:56-04:00
+title: List of Important things
+description: Things to remember, and things that must be written down!
+date: 2020-05-27
 draft: false
+categories:
+- Personal
+tags:
+- Personal
+- Self-improvement
+series:
+- Personal
 ---
 
 This post is meant to be a list of important things to remember and apply throughout daily life. It is so easy to get stuck in a hole and preform the same routine day in and day out. I believe that novelty forces people to grow and makes days feel more fulfilling. This list focuses on, at max, 10 core concepts that are worth paying attention to throughout each day of my life.

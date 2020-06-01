@@ -1,7 +1,13 @@
 ---
-title: "America signed a metric treaty"
-date: 2020-05-08T23:21:56-04:00
+title: America signed a metric treaty
+date: 2020-05-08
 draft: false
+categories:
+- Did You Know?
+tags:
+- DYY
+- Science
+series: null
 ---
 
 Yes, you read that right. The bulwark of the dated and confusing Imperial system actually signed the treaty in ~1880 which metric countries signed to agree on the metric system. The United States *intended* on converting to the metric system. Instead we have a beautiful system where all of our units are metric units and a conversion factor.
