@@ -1,6 +1,7 @@
 ---
-date: 4/22/2020
-title: We used to have better teeth
+title: "We used to have better teeth"
+date: 2020-04-22T23:21:56-04:00
+draft: false
 ---
 
 Did you know? ...

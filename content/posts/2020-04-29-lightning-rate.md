@@ -1,6 +1,7 @@
 ---
-date: 4/29/2020
-title: Lightning strikes the earth 44 times per second
+title: "Lightning strikes the earth 44 times per second"
+date: 2020-04-29T23:21:56-04:00
+draft: false
 ---
 
 Did you know...

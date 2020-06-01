@@ -1,6 +1,7 @@
 ---
-date: 5/27/2020
-title: List of Important things
+title: "List of Important things"
+date: 2020-05-27T23:21:56-04:00
+draft: false
 ---
 
 This post is meant to be a list of important things to remember and apply throughout daily life. It is so easy to get stuck in a hole and preform the same routine day in and day out. I believe that novelty forces people to grow and makes days feel more fulfilling. This list focuses on, at max, 10 core concepts that are worth paying attention to throughout each day of my life.

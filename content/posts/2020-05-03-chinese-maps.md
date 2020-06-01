@@ -1,6 +1,7 @@
 ---
-date: 5/3/2020
-title: Chinese maps are broken
+title: "maps of China are broken"
+date: 2020-05-03T23:21:56-04:00
+draft: false
 ---
 
 Maps of China are broken

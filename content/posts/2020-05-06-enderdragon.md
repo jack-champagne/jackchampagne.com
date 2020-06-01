@@ -1,6 +1,7 @@
 ---
-date: 05/06/2020
-title: I finally beat the enderdragon
+title: "I finally beat the enderdragon"
+date: 2020-05-06T23:21:56-04:00
+draft: false
 ---
 
 Yesterday, or rather, earlier this night. My girlfriend and I beat the Enderdragon in the game *Minecraft*. She died twice and I did not die once. I went through all 7 of my golden apples, my 2 regeneration potions, my 3 slow falling potions, and 64 arrows. It was hard work getting to this point but this is *the first time I have done it completely legit, no commands*. We immediately got an end city, got one elytra, and then another end city and another elytra. Earlier that same day, I finished 3 classes of mine for Spring Semester at UMass Amherst.

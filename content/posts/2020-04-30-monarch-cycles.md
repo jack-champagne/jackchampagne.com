@@ -1,6 +1,7 @@
 ---
-date: 4/30/2020
-title: monarch generations live vastly different amounts of time
+title: "monarch generations live vastly different lengths of time"
+date: 2020-04-30T23:21:56-04:00
+draft: false
 ---
 
 Did you know...

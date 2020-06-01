@@ -1,6 +1,7 @@
 ---
-date: 4/23/2020
-title: Lions eat cheetahs
+title: "Lions eat cheetahs"
+date: 2020-04-23T23:21:56-04:00
+draft: false
 ---
 
 Did you know? ...

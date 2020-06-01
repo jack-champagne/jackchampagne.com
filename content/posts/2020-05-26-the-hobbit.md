@@ -1,6 +1,7 @@
 ---
-title: The Hobbit
-date: 5/26/2020
+title: "The Hobbit"
+date: 2020-05-26T23:21:56-04:00
+draft: false
 ---
 
 Last night, after 4.5 hours of watching movies yesterday me and my girlfriend Lillian finished *The Hobbit* movie trilogy. The precursor to the *Lord of the Rings* series by J. R. R. Tolkien. I have to say a few things about the series so far. For one, I was surprised to see the middle movie *Desolation of Smaug* have signifigantly lower (only slightly) ratings than the other two movies overall. After watching the movie it made a lot of sense to my as to why. If I had to watch that movie in movie theaters and the next movie *Battle of Five Armies* hadn't come out yet, I would have been deeply frustrated with the ending. The movie finished off on a cliff-hanger that was far too-intense for my liking. I enjoy having movies leave some to be desired so it doesn't feel too conclusive but having a dragon (Smaug) moments away from descending down on a town and causing death and destruction and then ending the movie was a bit of a cop out in my opinion. Since I was watching these movies after all of them have been released, that frustration wasn't there and actually was something I found to be a positive. The previous movie, of course, now led in perfectly to the final movie, picking up right where we left off.

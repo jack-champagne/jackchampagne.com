@@ -1,6 +1,7 @@
 ---
-date: 5/13/2020
-title: An update about this site
+title: "An update about this site"
+date: 2020-05-13T23:21:56-04:00
+draft: false
 ---
 
 Hi! This is Jack. Just writing a short update on the site itself and what's going on behind the scenes =]
