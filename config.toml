@@ -155,7 +155,7 @@ paginatePath = "page"
         weight = 2
 
     [[menu.footer]]
-        name = "Recurse"
-        title = "here"
-        url = "https://jackchampagne.com"
+        name = "To Top"
+        title = "Top"
+        url = "#"
         weight = 3
