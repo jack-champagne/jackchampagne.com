@@ -1,3 +1,4 @@
 [submodule "themes/slick"]
 	path = themes/slick
-	url = git@github.com:jack-champagne/slick
+	url = https://github.com/jack-champagne/slick
+	branch = master
