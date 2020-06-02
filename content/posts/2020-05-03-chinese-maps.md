@@ -6,7 +6,7 @@ draft: false
 categories:
 - Did You Know?
 tags:
-- DYY
+- DYK
 - Geography
 series: null
 ---

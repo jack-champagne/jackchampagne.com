@@ -8,7 +8,7 @@ categories:
 - Personal
 - Journal
 tags:
-- DYY
+- DYK
 - Personal
 - Journal
 - Coronavirus

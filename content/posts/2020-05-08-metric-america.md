@@ -5,7 +5,7 @@ draft: false
 categories:
 - Did You Know?
 tags:
-- DYY
+- DYK
 - Science
 series: null
 ---
