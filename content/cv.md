@@ -2,6 +2,7 @@
 title: Resume
 description: My resume
 date: 2020-06-01
+draft: false
 ---
 
 # Resume
