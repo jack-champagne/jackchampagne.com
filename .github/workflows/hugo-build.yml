@@ -29,6 +29,8 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Push built site
       run: |
+        git config user.email "jackchampagne.r@gmail.com"
+        git config user.name "Jack Champagne"
         git add .
         git commit -am "Hugo github build"
         git push
