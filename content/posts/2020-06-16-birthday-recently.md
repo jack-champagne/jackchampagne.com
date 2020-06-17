@@ -60,4 +60,5 @@ I want a lot of things in life. And it always seems like there's just not enough
 
 This could have a ton of tags but because of the nature of this list, I think I am going to keep it with only these.
 
+Till next time,
 - Jack
