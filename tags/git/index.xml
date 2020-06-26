@@ -9,7 +9,8 @@ My dad and I added a roof to the eagle scout sign project on fathers day. This c
 &lt;p>Also of note: I migrated back to Github pages because of the website bloat that Netlify was causing. To properly use netlify, I would have to added a few things that I did not want. I want this site to be lightweight (other than the photos I guess) and want each aspect to be tightly controlled. It was a fairly smooth process in my opinion.&lt;/p>
 &lt;p>Anyways, I think I have put off work long enough, or maybe I&amp;rsquo;m ready to just give up for the night and call it a day. Who knows?? (me, calling it a day)
 Till next time,
-Jack&lt;/p></description></item><item><title>Netlify incoming</title><link>https://jackchampagne.com/posts/2020-06-01-netlify-1/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jackchampagne.com/posts/2020-06-01-netlify-1/</guid><description>&lt;p>9:20am&lt;/p>
+Jack&lt;/p>
+&lt;p>Also just want to say briefly that moments ago (you can look at commits now, I found the www. subdomain was not working, currently trying to fix)&lt;/p></description></item><item><title>Netlify incoming</title><link>https://jackchampagne.com/posts/2020-06-01-netlify-1/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jackchampagne.com/posts/2020-06-01-netlify-1/</guid><description>&lt;p>9:20am&lt;/p>
 &lt;p>Two days ago, I was able to get the site to build on netlify. The site displayed correctly and as of right now uses the slick theme. As of writing this, I will be working on migrating all of the old site content over to this new site and hooking it up to my domain (&lt;a href="https://jackchampagne.com">https://jackchampagne.com&lt;/a>)&lt;/p>
 &lt;p>Will be updating this throughout the morning.&lt;/p>
 &lt;p>4:00pm&lt;/p>
