@@ -12,6 +12,7 @@ tags:
 - Coronavirus
 - Self-improvement
 - Git
+- DNS
 - Journal
 series:
 - Personal
@@ -38,3 +39,5 @@ Also of note: I migrated back to Github pages because of the website bloat that 
 Anyways, I think I have put off work long enough, or maybe I'm ready to just give up for the night and call it a day. Who knows?? (me, calling it a day) 
 Till next time,
 Jack
+
+Also just want to say briefly that moments ago (you can look at commits now, I found the www. subdomain was not working, currently trying to fix)
