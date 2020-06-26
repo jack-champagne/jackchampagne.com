@@ -56,6 +56,11 @@ Some things I wanted to jot down for some note taking:
 * I want to continue my python code-academy course (or find a different service)
 * I want to continue learning c and c++
 
+( 6-25-2020 )
+* I want to give myself more time
+* I want to be the best that I can be.
+* I want to get right out of bed and wake up earlier (8am)
+
 I want a lot of things in life. And it always seems like there's just not enought time. One small thing at a time though, and I know it will get done. I know it will.
 
 This could have a ton of tags but because of the nature of this list, I think I am going to keep it with only these.
