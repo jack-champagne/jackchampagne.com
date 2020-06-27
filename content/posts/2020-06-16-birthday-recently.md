@@ -21,13 +21,14 @@ On my birthday I recieved two gifts that I am looking forward to using. The firs
 As I get older, a birthday just feels like another normal day. If I was asked by someone how old I am, I'd probably respond with 18 accidentally still. This is the reality but fortunately I have not gotten to the point where I say an age from two years ago. I have found some difficulty and trouble trying to motivate to do work. The tasks that I have set out at AirCycler seem very doable and are broken up into bite size chunks but I find the work to be less interesting than that which I decide to do for my own personal improvement.
 
 Some things I wanted to jot down for some note taking:
+
 * I started the cryptography and micro/macro economics course on Khan Academy earlier this summer. And have not been doing that recently. (At one point I found myself needing pen and paper to organize my thoughts for the cryptography and econ quizzes, which made it more difficult to do before bed and such)
 * I also have many other books I would like to read and a Scientific American magazine to get through as well. (10 python books to read)
-* I also want to note that my python script for sending me text from my computer does not work now for unknown reasons. I am unable to connect to gmail's smtp server.
-* I have not watched youtube in weeks... I'm not sure how long it has been but life has felt more fulfilling, busy, and peaceful recently. I feel like I am taking care of the people around me better and sometimes I feel like I am taking care of myself better (although this morning I lay in bed for nearly an hour, a habit that I am going to start to break)
+* ~~I also want to note that my python script for sending me text from my computer does not work now for unknown reasons. I am unable to connect to gmail's smtp server.~~
+* ~~I have not watched youtube in weeks... I'm not sure how long it has been but life has felt more fulfilling, busy, and peaceful recently. I feel like I am taking care of the people around me better and sometimes I feel like I am taking care of myself better (although this morning I lay in bed for nearly an hour, a habit that I am going to start to break)~~
 * I want to start reading my next python book on my kindle
 * I want to clean the garage
-* I want to put a roof on the Green's Harbor trailhead sign (for my Eagle Scout project)
+* ~~I want to put a roof on the Green's Harbor trailhead sign (for my Eagle Scout project)~~
 * I want to get enough sleep and exercise every day! (Can track these things now using my apple watch)
 * I want to work 20 hours a week consistently and put away 25% of everything that I make.
 * I want to get more nighttime photography (Was about to last night but instead wrote a summary of campus' plans to repopulate to my friends)
@@ -57,6 +58,7 @@ Some things I wanted to jot down for some note taking:
 * I want to continue learning c and c++
 
 ( 6-25-2020 )
+
 * I want to give myself more time
 * I want to be the best that I can be.
 * I want to get right out of bed and wake up earlier (8am)
@@ -66,4 +68,4 @@ I want a lot of things in life. And it always seems like there's just not enough
 This could have a ton of tags but because of the nature of this list, I think I am going to keep it with only these.
 
 Till next time,
-- Jack
+\- Jack
