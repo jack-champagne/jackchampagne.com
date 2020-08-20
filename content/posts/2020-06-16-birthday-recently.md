@@ -23,7 +23,7 @@ As I get older, a birthday just feels like another normal day. If I was asked by
 Some things I wanted to jot down for some note taking:
 
 * I started the cryptography and micro/macro economics course on Khan Academy earlier this summer. And have not been doing that recently. (At one point I found myself needing pen and paper to organize my thoughts for the cryptography and econ quizzes, which made it more difficult to do before bed and such)
-* I also have many other books I would like to read and a Scientific American magazine to get through as well. (10 python books to read)
+* I also have many other books I would like to read and ~~a Scientific American magazine~~ to get through as well. (10 python books to read)
 * ~~I also want to note that my python script for sending me text from my computer does not work now for unknown reasons. I am unable to connect to gmail's smtp server.~~
 * ~~I have not watched youtube in weeks... I'm not sure how long it has been but life has felt more fulfilling, busy, and peaceful recently. I feel like I am taking care of the people around me better and sometimes I feel like I am taking care of myself better (although this morning I lay in bed for nearly an hour, a habit that I am going to start to break)~~
 * I want to start reading my next python book on my kindle
@@ -32,25 +32,25 @@ Some things I wanted to jot down for some note taking:
 * I want to get enough sleep and exercise every day! (Can track these things now using my apple watch)
 * I want to work 20 hours a week consistently and put away 25% of everything that I make.
 * I want to get more nighttime photography (Was about to last night but instead wrote a summary of campus' plans to repopulate to my friends)
-* I want to clean my room again, there is too much on the walls
-* I want to set up a little stand at the base of my bed for a projector setup
-* I want to write more of these posts. (Am wondering right now if having this private information exposed is a privacy concern of mine.)
-* I want to create a comprehensive todo list focused around my health
+* ~~I want to clean my room again, there is too much on the walls~~
+* ~~I want to set up a little stand at the base of my bed for a projector setup~~
+* ~~I want to write more of these posts. (Am wondering right now if having this private information exposed is a privacy concern of mine.)~~
+* ~~I want to create a comprehensive todo list focused around my health~~
 * I want to clean out the garage
 * I want to set up an r-pi cluster compute server
 * I want to get my part 107
-* I want to play more mincraft with my girlfriend
-* I want to spend more time on discord calls with friend and in-person risk-mitigated hangouts
+* ~~I want to play more minecraft with my girlfriend~~
+* ~~I want to spend more time on discord calls with friend and in-person risk-mitigated hangouts~~
 * I want to spend more time around Lillian's family to connect more 
 * I want to program guis in flutter to try it out
-* I want to learn options and market information through  Cboe and others
+* ~~I want to learn options and market information through  Cboe and others~~
 * I want to play guitar more
 * I want to automate more of my life
-* I want to plan out Dyken pond trips with my friends this summer.
+* ~~I want to plan out Dyken pond trips with my friends this summer.~~
 * I want to bike more.
-* I want to go to bed earlier and get more sleep.
+* ~~I want to go to bed earlier and get more sleep.~~
 * I want to have more time? Make more time
-* I want to camp and go on more hikes
+* ~~I want to camp and go on more hikes~~
 * I want to *clean* my mom's car
 * I want to see moon snails
 * I want to start my web programming course again on khan academy
@@ -61,7 +61,7 @@ Some things I wanted to jot down for some note taking:
 
 * I want to give myself more time
 * I want to be the best that I can be.
-* I want to get right out of bed and wake up earlier (8am)
+* ~~I want to get right out of bed and wake up earlier (8am)~~
 
 I want a lot of things in life. And it always seems like there's just not enought time. One small thing at a time though, and I know it will get done. I know it will.
 
