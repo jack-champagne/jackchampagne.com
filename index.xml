@@ -1,4 +1,53 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tidbits</title><link>https://jack-champagne.github.io/</link><description>Recent content on Tidbits</description><generator>Hugo 0.71.1 -- gohugo.io</generator><language>en</language><managingEditor>jackchampagne.r@gmail.com (Jack Champagne)</managingEditor><webMaster>jackchampagne.r@gmail.com (Jack Champagne)</webMaster><copyright>Jack Champagne — All rights reserved.</copyright><lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jack-champagne.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Friends at the lake</title><link>https://jack-champagne.github.io/posts/2020-08-18-dux-dyken/</link><pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/posts/2020-08-18-dux-dyken/</guid><description>&lt;p>Back from a great weekend at the lake with friends. A lot happened over the weekend and we got to do a lot of the things that I wanted to do. Firstly, the dates. Lillian and I left on Friday at around 1:30 - 2 and arrived at 5ish. Dinner had already been prepped by the both of us a week in advance so all we had to do was put on the spaghetti in advance, dress the chicken parm, and make a salad. The first day we swam and went out on the boat a bit to look at the stars. The sky was spectacular and we saw many shooting stars. I was able to identify (Saturn/Jupiter), Mars, Ursa Major, Polaris, Arcturus, and the Milky Way in the sky.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tidbits</title><link>https://jack-champagne.github.io/</link><description>Recent content on Tidbits</description><generator>Hugo 0.71.1 -- gohugo.io</generator><language>en</language><managingEditor>jackchampagne.r@gmail.com (Jack Champagne)</managingEditor><webMaster>jackchampagne.r@gmail.com (Jack Champagne)</webMaster><copyright>Jack Champagne — All rights reserved.</copyright><lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jack-champagne.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Resume</title><link>https://jack-champagne.github.io/cv/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/cv/</guid><description>&lt;h1 id="resume">Resume&lt;/h1>
+&lt;img src="https://raw.githubusercontent.com/jack-champagne/jack-champagne.com/gh-pages/content/assets/cv-picture.png" alt="My picture" title="Taken by Lillian Ciocci">
+&lt;p>I enjoy all things that require learning and engineering. I love to build, design, create, and understand. Anything I can do to help the world around me enjoy these things more is something that I take as a passion and truly enjoy!&lt;/p>
+&lt;h2 id="employment-history">Employment History&lt;/h2>
+&lt;h4 id="102019---present-umass-amherst-all-campus-makerspace---makerspace-staff">10/2019 - Present: UMass Amherst All-Campus Makerspace - Makerspace Staff&lt;/h4>
+&lt;ul>
+&lt;li>Employs knowlege of shop protocols and organization to create a safe shop environment&lt;/li>
+&lt;li>Assists students with electrical and computer engineering projects&lt;/li>
+&lt;li>Lead operator and teacher of the 2 3D printers and the software required&lt;/li>
+&lt;li>Assisted and designed the internal networking and future server setup for the makerspace&lt;/li>
+&lt;/ul>
+&lt;h4 id="102018---present-aircycler---programmer-and-software-engineer">10/2018 - Present: AirCycler© - Programmer and Software Engineer&lt;/h4>
+&lt;ul>
+&lt;li>Experienced with data acquisition systems and high bandwidth signal processing interfaces.&lt;/li>
+&lt;li>Lead development on ventilation system simulation software with modular and advanced testing of new products.&lt;/li>
+&lt;li>Reverse engineered former product&amp;rsquo;s algorithms for predictive simulation and analysis.&lt;/li>
+&lt;li>Assisted with the creation and maintenance of an isolated and robust fixture for continuous testing of products.&lt;/li>
+&lt;li>Overhauled the beach access tracking system for Duxbury Beach Reservation.&lt;/li>
+&lt;li>Management and remote debugging of linux/RFID systems.&lt;/li>
+&lt;li>Proficient in circuit analysis and reading schematics.&lt;/li>
+&lt;/ul>
+&lt;h4 id="032017---42019-milepost-restaurant---dishwasher">03/2017 - 4/2019: Milepost Restaurant - Dishwasher&lt;/h4>
+&lt;ul>
+&lt;li>Washed dining room dishes, glassware, and silverware&lt;/li>
+&lt;li>Washed kitchen dishes, pots, pans, cutlery, and cookware&lt;/li>
+&lt;li>Cleaned kitchen prep area and salad station&lt;/li>
+&lt;li>Closed kitchen and cleaned appliances&lt;/li>
+&lt;/ul>
+&lt;h2 id="education">Education&lt;/h2>
+&lt;h4 id="university-of-massachusetts-amherst-class-of-2023">University of Massachusetts-Amherst: Class of 2023&lt;/h4>
+&lt;p>Math or Computer Science Major&lt;/p>
+&lt;h4 id="duxbury-high-school-class-of-2019">Duxbury High School: Class of 2019&lt;/h4>
+&lt;h2 id="activities">Activities&lt;/h2>
+&lt;ul>
+&lt;li>FIRST Robotics: Team 4908 (2014 - 2019)
+&lt;ul>
+&lt;li>Lead programmer, electrician, and robot driver&lt;/li>
+&lt;li>CNC operator and parts manufacturing assistant&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Boy Scouts of America (2011 - 2019)
+&lt;ul>
+&lt;li>Eagle Scout (2019)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>National Honors Society (2018 - 2019)&lt;/li>
+&lt;li>Duxbury Crew Team (2015 - 2016)&lt;/li>
+&lt;li>Duxbury Ski Team (2014 - 2015, 2016 - 2017)&lt;/li>
+&lt;li>Franconia Ski Club (2012 - 2018)&lt;/li>
+&lt;/ul></description></item><item><title>Friends at the lake</title><link>https://jack-champagne.github.io/posts/2020-08-18-dux-dyken/</link><pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/posts/2020-08-18-dux-dyken/</guid><description>&lt;p>Back from a great weekend at the lake with friends. A lot happened over the weekend and we got to do a lot of the things that I wanted to do. Firstly, the dates. Lillian and I left on Friday at around 1:30 - 2 and arrived at 5ish. Dinner had already been prepped by the both of us a week in advance so all we had to do was put on the spaghetti in advance, dress the chicken parm, and make a salad. The first day we swam and went out on the boat a bit to look at the stars. The sky was spectacular and we saw many shooting stars. I was able to identify (Saturn/Jupiter), Mars, Ursa Major, Polaris, Arcturus, and the Milky Way in the sky.&lt;/p>
 &lt;p>The next day was a lot of water sports and good eating. We were all sore by the end of the day and we played a lot of BANG! the card game. I am going to reread the rules because after about 5 mins of reading them while writing this, I can tell that there have been a few fatal differences between how we play and how this game is supposed to be played. My mom also showed me how I can fix the boat when it is being afflicted with the bad gas from Stewarts (water in the gas) and we got the boat running for the whole weekend.&lt;/p>
 &lt;p>Sunday (8/16/2020) was a bit of a crazy day. Around lunch my mother got a call from Shane that Alannah was not doing well. I could tell by the questions she was asking that it was quite serious. My mother remained calm for the majority of the day and came and went as she was tending to the situation. Lillian cut my hair for the second time that afternoon. During dinner my mom had to leave and we said goodbye, Alannah passed away that night.&lt;/p>
 &lt;p>Sunday and Monday morning were relatively normal. I kept in contact with my mother (who had flew out to Atlanta on Monday morning) as well as continued to host my friends until we started cleaning up around 4. Lillian and everyone was a huge help because earlier I had sliced my big toe on a glass that fell after I cleaned it. I then hobbled over to the bathroom and for the second year in a row (this time because I was hopping around on one foot) I smashed the light fixture in the Dyken pond bathroom. My hand had minor cuts but my foot had a small but moderately deep cut that I had to dress with cotton balls, gauze, and waterproof tape. Everyone left the camp, sad to go, at around 4:40. There are still some things that I want to do up there with them that we did not get around to. I would like to bring everyone over to the environmental center for a hike out to the petrified bog. I would also like to bring everyone to ramblewild or something like that. I would also have liked to show all of my friends my mom&amp;rsquo;s house down in center Berlin and her back yard. I would also have liked to have enough time to show everyone the pet Emu&amp;rsquo;s that the people on Airport Rd. had. This will have to wait till next year.&lt;/p>
@@ -171,56 +220,7 @@ Jack&lt;/p></description></item><item><title>Netlify incoming</title><link>https
 &lt;p>4:13pm&lt;/p>
 &lt;p>First build failed because of a missing space on line 10 of 2020-04-25-galactic-dinosaurs.md in between the &lt;code>-&lt;/code> and &lt;code>Science&lt;/code>. Second build failed because I didn&amp;rsquo;t save. Third build succeeded in 5 seconds (Whoa, this is supposed to be a lightweight theme!). Looking at the built site, I noticed a typo that created two tags that were meant to be one: &lt;code>Self-improvment&lt;/code> and &lt;code>Self-improvement&lt;/code> were merged and then I build again. Now that everything looks good, time to commit these changes and let the magic of CI take over!&lt;/p>
 &lt;p>Talk soon,
-Jack&lt;/p></description></item><item><title>Resume</title><link>https://jack-champagne.github.io/cv/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/cv/</guid><description>&lt;h1 id="resume">Resume&lt;/h1>
-&lt;img src="https://raw.githubusercontent.com/jack-champagne/jack-champagne.github.io/master/assets/cv-picture.jpg" alt="Me!" title="Taken by Lillian Ciocci">
-&lt;p>I enjoy all things that require learning and engineering. I love to build, design, create, and understand. Anything I can do to help the world around me enjoy these things more is something that I take as a passion and truly enjoy!&lt;/p>
-&lt;h2 id="employment-history">Employment History&lt;/h2>
-&lt;h4 id="102019---present-umass-amherst-all-campus-makerspace---makerspace-staff">10/2019 - Present: UMass Amherst All-Campus Makerspace - Makerspace Staff&lt;/h4>
-&lt;ul>
-&lt;li>Employs knowlege of shop protocols and organization to create a safe shop environment&lt;/li>
-&lt;li>Assists students with electrical and computer engineering projects&lt;/li>
-&lt;li>Lead operator and teacher of the 2 3D printers and the software required&lt;/li>
-&lt;li>Assisted and designed the internal networking and future server setup for the makerspace&lt;/li>
-&lt;/ul>
-&lt;h4 id="102018---present-aircycler---programmer-and-software-engineer">10/2018 - Present: AirCycler© - Programmer and Software Engineer&lt;/h4>
-&lt;ul>
-&lt;li>Experienced with data acquisition systems and high bandwidth signal processing interfaces.&lt;/li>
-&lt;li>Lead development on ventilation system simulation software with modular and advanced testing of new products.&lt;/li>
-&lt;li>Reverse engineered former product&amp;rsquo;s algorithms for predictive simulation and analysis.&lt;/li>
-&lt;li>Assisted with the creation and maintenance of an isolated and robust fixture for continuous testing of products.&lt;/li>
-&lt;li>Overhauled the beach access tracking system for Duxbury Beach Reservation.&lt;/li>
-&lt;li>Management and remote debugging of linux/RFID systems.&lt;/li>
-&lt;li>Proficient in circuit analysis and reading schematics.&lt;/li>
-&lt;/ul>
-&lt;h4 id="032017---42019-milepost-restaurant---dishwasher">03/2017 - 4/2019: Milepost Restaurant - Dishwasher&lt;/h4>
-&lt;ul>
-&lt;li>Washed dining room dishes, glassware, and silverware&lt;/li>
-&lt;li>Washed kitchen dishes, pots, pans, cutlery, and cookware&lt;/li>
-&lt;li>Cleaned kitchen prep area and salad station&lt;/li>
-&lt;li>Closed kitchen and cleaned appliances&lt;/li>
-&lt;/ul>
-&lt;h2 id="education">Education&lt;/h2>
-&lt;h4 id="university-of-massachusetts-amherst-class-of-2023">University of Massachusetts-Amherst: Class of 2023&lt;/h4>
-&lt;p>Math or Computer Science Major&lt;/p>
-&lt;h4 id="duxbury-high-school-class-of-2019">Duxbury High School: Class of 2019&lt;/h4>
-&lt;h2 id="activities">Activities&lt;/h2>
-&lt;ul>
-&lt;li>FIRST Robotics: Team 4908 (2014 - 2019)
-&lt;ul>
-&lt;li>Lead programmer, electrician, and robot driver&lt;/li>
-&lt;li>CNC operator and parts manufacturing assistant&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Boy Scouts of America (2011 - 2019)
-&lt;ul>
-&lt;li>Eagle Scout (2019)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>National Honors Society (2018 - 2019)&lt;/li>
-&lt;li>Duxbury Crew Team (2015 - 2016)&lt;/li>
-&lt;li>Duxbury Ski Team (2014 - 2015, 2016 - 2017)&lt;/li>
-&lt;li>Franconia Ski Club (2012 - 2018)&lt;/li>
-&lt;/ul></description></item><item><title>Dyken Pond</title><link>https://jack-champagne.github.io/posts/2020-05-30-dyken-pond-1/</link><pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/posts/2020-05-30-dyken-pond-1/</guid><description>&lt;p>Today was my first day back at Dyken pond for real, meaning sleeping at the camp. Last weekend, my mom and Chris ripped up the old setup around the firepit and put down sod and seed. It looks and feels so nice. Instead of stepping on rocks and pine needles every time we go outside this year, we will be laying in a bed of grass, so nice.&lt;/p>
+Jack&lt;/p></description></item><item><title>Dyken Pond</title><link>https://jack-champagne.github.io/posts/2020-05-30-dyken-pond-1/</link><pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/posts/2020-05-30-dyken-pond-1/</guid><description>&lt;p>Today was my first day back at Dyken pond for real, meaning sleeping at the camp. Last weekend, my mom and Chris ripped up the old setup around the firepit and put down sod and seed. It looks and feels so nice. Instead of stepping on rocks and pine needles every time we go outside this year, we will be laying in a bed of grass, so nice.&lt;/p>
 &lt;p>My girlfriend&amp;rsquo;s birthday was yesterday and even though there was a ton of stuff that we did not get to do, it was a jam-packed day. I learned that she has never really done origami before. I planned on &lt;em>possibly&lt;/em> building birdhouses, playing &lt;em>Hey There Delilah&lt;/em> by the Plain White T&amp;rsquo;s on guitar for her (wasn&amp;rsquo;t practiced enough yet!) building the lego set that Sean Henderson gave to her for her birthday, and doing a puzzle. We ran out of time! We also watched three episodes of spongebob though, starting from the beginning of course. I am surprised that I have seen every episode so far before.&lt;/p>
 &lt;p>Later, and at the lake!
 Jack&lt;/p></description></item><item><title>List of Important things</title><link>https://jack-champagne.github.io/posts/2020-05-27-important-things/</link><pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/posts/2020-05-27-important-things/</guid><description>&lt;p>This post is meant to be a list of important things to remember and apply throughout daily life. It is so easy to get stuck in a hole and preform the same routine day in and day out. I believe that novelty forces people to grow and makes days feel more fulfilling. This list focuses on, at max, 10 core concepts that are worth paying attention to throughout each day of my life.&lt;/p>
