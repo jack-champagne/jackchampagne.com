@@ -7,7 +7,7 @@ draft: false
 
 # Resume
 
-<img src="https://raw.githubusercontent.com/jack-champagne/jack-champagne.com/gh-pages/content/assets/cv-picture.png" alt="My picture" title="Taken by Lillian Ciocci">
+<img src="https://raw.githubusercontent.com/jack-champagne/jackchampagne.com/gh-pages/assets/cv-picture.png" alt="My picture" title="Taken by Lillian Ciocci">
 
 I enjoy all things that require learning and engineering. I love to build, design, create, and understand. Anything I can do to help the world around me enjoy these things more is something that I take as a passion and truly enjoy!
 
