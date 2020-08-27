@@ -1,7 +1,7 @@
 ---
 title: A New Start
 description:
-date: 2020-08-24
+date: 2020-08-26
 draft: false
 categories:
 - Personal
