@@ -31,8 +31,9 @@ function mouseDragged() {
   yTranslate += (pmouseY - mouseY) * mouseScale;
 }
 
-var scrollScale = 0.01;
+var scrollScale = 0.02;
 function mouseWheel(event) {
   zoom /= 1 + (event.delta * scrollScale);
+  mouseScale = 0.02 / zoom;
   return false;
 }
