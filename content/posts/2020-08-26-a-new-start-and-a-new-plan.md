@@ -9,10 +9,9 @@ categories:
 tags:
 - Personal
 - Journal
-- Books
+- Self-improvement
 series:
 - Personal
-- Development
 ---
 
 It's over. I have decided the youtube does not contribute anything tangible (in the way I use it) to my life. I am fed up and frustrated by how dangerous and how easily I fall into its trap and I am done with it. This morning, I woke up late for class because I should have went to bed earlier. It is nothing but a time waster.
