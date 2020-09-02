@@ -37,6 +37,23 @@ I enjoy all things that require learning and engineering. I love to build, desig
 ## Education
 #### University of Massachusetts-Amherst: Class of 2023
 Math or Computer Science Major
+*Classes Taken:*
+
+Fall 2019 \-
+* Multivariate Calculus (Math 233)
+* Applications of Unmanned Aerial Systems in Engineering (Civil Engineering 497A)
+
+Spring 2020 \-
+* Ordinary Differential Equations for Scientists and Engineers (Math 331)
+* Introduction to Linear Algebra (Math 235)
+* General Physics II (Physics 152)
+* Introduction to Problem Solving with Computers (Computer Science 121)
+
+Fall 2020 \-
+* Programming with Data Structures (Computer Science 187)
+* Introduction to Scientific Computing (Math 551)
+* Statistics I (Math 515)
+
 #### Duxbury High School: Class of 2019
 
 ## Activities
