@@ -1,13 +1,14 @@
 ---
 title: Squirrels cause power outages?
-date: 2020-05-08
+date: 2020-09-08
 draft: false
 categories:
 - Did You Know?
 tags:
 - DYK
 - Science
-series: null
+series:
+- DYK
 ---
 
 Did you know squirrels are a signifigant cause for power outages in the U.S? They jump on the powerlines and accelerate the wear and tear of these utilities.
