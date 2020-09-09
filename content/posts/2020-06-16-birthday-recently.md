@@ -52,7 +52,7 @@ Some things I wanted to jot down for some note taking:
 * I want to have more time? Make more time
 * ~~I want to camp and go on more hikes~~
 * I want to *clean* my mom's car
-* I want to see moon snails
+* ~~I want to see moon snails~~
 * I want to start my web programming course again on khan academy
 * I want to continue my python code-academy course (or find a different service)
 * I want to continue learning c and c++
