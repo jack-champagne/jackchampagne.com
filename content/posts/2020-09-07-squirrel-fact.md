@@ -23,4 +23,6 @@ Yesterday when we got home, we got to see Ivy for the first time. Ivy is the nam
 
 Today (9/7/2020) we all got a test from ConvenientMD in Pembroke MA. I was very productive this past weekend and also today and want to continue this trend. The youtube downloader has helped tremendously by completely separating me from the time-engagement focused youtube algorithm. Things have been well! The dog is great and I am really proud of her and I think we got a really great, calm, easy to train puppy that will be a loving family member for years and years to come.
 
+Update - Negative test recieved yesterday at 3pm (~26 hours after I had gotten tested). What a turn around time!
+
 See ya!
