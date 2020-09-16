@@ -21,6 +21,9 @@ This post is meant to be a list of important things to remember and apply throug
 * Getting enough sleep is essential
 * Spending time with those around you
 
+(9/16/2020)
+* Don't get stuck on your bad habits. See where you went wrong, prevent it from happening in the future and grow.
+
 There are more to be added and as the list goes on some may be deleted. A format to describe the dates on the list will be made in the future. *For now, all of the list items were added on the start date of this post. This will almost act like a sticky note / bulletin board for my thoughts on my path towards productivity.
 
 Thanks,
