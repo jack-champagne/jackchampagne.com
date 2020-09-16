@@ -26,9 +26,9 @@ As of writing, these files still haven't been made into a webpage. Hoping after 
 ~~3. Learn more~~
 
 #### Some goals for the summer
-1. Get Bubbles up and running with a GUI
-2. Stay in touch with friends all over
-3. Learn even more
+1. Get Bubbles up and running with a GUI ✔️
+2. Stay in touch with friends all over ✔️
+3. Learn even more ✔️
 
 Talk soon,
 Jack
