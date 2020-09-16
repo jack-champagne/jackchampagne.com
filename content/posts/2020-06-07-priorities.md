@@ -34,7 +34,7 @@ A list of priorities is always important, especially for the person who likes to
 And priorities to others:
 
 1. Get BubblesGUI working with a usable GUI for AirCycler (Simulator, Debugger, Testing)
-2. Get a roof on the 1623 Trailhead sign (It's been nearly a year!)
+2. ~~Get a roof on the 1623 Trailhead sign (It's been nearly a year!)~~ (June 21st)
 3. Clean up around the property (Duxbury, Berlin)
 
 Thinking about doing a power-hour week sometime soon: One article each day for a week that I just write down my thoughts and day in great detail. Just a thought for now.
