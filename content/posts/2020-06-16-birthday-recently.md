@@ -36,7 +36,6 @@ Some things I wanted to jot down for some note taking:
 * ~~I want to set up a little stand at the base of my bed for a projector setup~~
 * ~~I want to write more of these posts. (Am wondering right now if having this private information exposed is a privacy concern of mine.)~~
 * ~~I want to create a comprehensive todo list focused around my health~~
-* I want to clean out the garage
 * I want to set up an r-pi cluster compute server
 * I want to get my part 107
 * ~~I want to play more minecraft with my girlfriend~~
