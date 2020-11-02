@@ -1,7 +1,7 @@
 ---
 title: Slow roll of changes
 description: 
-date: 2020-10-9
+date: 2020-11-2
 draft: false
 categories:
 - Personal
