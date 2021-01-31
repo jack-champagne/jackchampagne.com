@@ -52,7 +52,16 @@ Spring 2020 \-
 Fall 2020 \-
 * Programming with Data Structures (Computer Science 187)
 * Introduction to Scientific Computing (Math 551)
-* Statistics I (Math 515)
+* Statistics I (Statistics 515)
+
+Winter 2020-2021 \-
+* Introduction to Computation (Computer Science 250)
+
+Spring 2021 (*Ongoing*) \- 
+* Reasoning Under Uncertainty (Computer Science 240)
+* Writing in Mathematics (Math 370)
+* Statistics II (Statistics 516)
+* Linear Algebra for Applied Mathematics (Math 545)
 
 #### Duxbury High School: Class of 2019
 
