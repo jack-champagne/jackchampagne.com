@@ -24,6 +24,9 @@ jobs:
 
       - name: CNAME Config
         run: echo "www.jackchampagne.com" >> ./public/CNAME
+        
+      - name: Favicon Updater
+        run: cp favicon.ico ./public/favicon.ico
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
