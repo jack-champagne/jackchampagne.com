@@ -9,8 +9,7 @@ draft: false
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <body>
-
-This is a \( Test \) of mathjax and:
-  \[ \LaTeX \]
-
+  This is a \( Test \) of mathjax and:
+    \[ \LaTeX \]
+<\body>
 Hope you enjoy.
