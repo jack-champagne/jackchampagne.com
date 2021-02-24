@@ -11,5 +11,5 @@ draft: false
 <body>
   This is a \( Test \) of mathjax and:
     \[ \LaTeX \]
-<\body>
+<!--<\body>-->
 Hope you enjoy.
