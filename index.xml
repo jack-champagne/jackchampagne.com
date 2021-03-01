@@ -4,25 +4,8 @@
 &lt;p>Ok so for the first exploration of this page, I thought it would be excellent to discuss some basic math. My goal for this page is to be able to read it from bottom to top and for nearly everyone with a basic high-school level of math to be able to understand &lt;em>visually&lt;/em> some important aspects of math.&lt;/p>
 &lt;p>Lets start with some aspects of math that we will build on in the future.
 Let&amp;rsquo;s imagine we live in a world where the cost of goods will grow over time at a set rate, say $1 per day (I know, crazy, but math is the only subject that allows for such imaginary realities to exist). I am trying to buy a box of cereal and its cost is currently $5. If I come back tomorrow, it will be $6 and so on.&lt;/p>
-&lt;h1 id="-price--1--num-days--5-">If we wanted to find the price of the box next week, we would count the number of days and add it to original price. What if we want to find the price of the box any amount of days from now? Then we can just do this right?
-&amp;laquo;&amp;laquo;&amp;laquo;&amp;lt; HEAD
-\[ price = $1 * num days + $5 \]&lt;/h1>
-&lt;p>\[ price = $1 * number\,o\!f\,days + $5 \]&lt;/p>
-&lt;blockquote>
-&lt;blockquote>
-&lt;blockquote>
-&lt;blockquote>
-&lt;blockquote>
-&lt;blockquote>
-&lt;blockquote>
-&lt;p>origin/master&lt;/p>
-&lt;/blockquote>
-&lt;/blockquote>
-&lt;/blockquote>
-&lt;/blockquote>
-&lt;/blockquote>
-&lt;/blockquote>
-&lt;/blockquote>
+&lt;p>If we wanted to find the price of the box next week, we would count the number of days and add it to original price. What if we want to find the price of the box any amount of days from now? Then we can just do this right?
+\[ price = $1 * number\,o\!f\,days + $5 \]&lt;/p>
 &lt;p>This is what is called a function. You&amp;rsquo;ve probably heard the term function before in a math class or in a programming class and, fortunately, both have similar aspects to them. In essence a function is something, &lt;em>anything&lt;/em>, that takes some information (or things) as input(s) and produces some sort of output(s). For this specific function, we are trying to calculate the price on a given day in the future &lt;em>given&lt;/em> how many days from now into the future. In other words, our function&amp;rsquo;s output is the price and its input(s) is how many days into the future. Here is a graph of some days into the future (horizontally) and their respective prices using our equation (vertically)&lt;/p>
 &lt;iframe src="https://www.desmos.com/calculator/uwhcmfoyop?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0>&lt;/iframe>
 &lt;p>Look at the straight line that the function follows!&lt;/p>
