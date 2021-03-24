@@ -10,6 +10,7 @@ draft: false
 
 <style>
 .graph {margin: auto;}
+.dcg-container {margin: auto;}
 </style>
 
 ## Intro to functions
