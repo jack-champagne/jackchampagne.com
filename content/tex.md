@@ -9,8 +9,7 @@ draft: false
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <style>
-.graph {margin: auto;}
-.dcg-container {margin: auto;}
+iframe { display: block; }
 </style>
 
 ## Intro to functions
@@ -25,9 +24,7 @@ If we wanted to find the price of the box next week, we would count the number o
 
 This is what is called a function. You've probably heard the term function before in a math class or in a programming class and, fortunately, both have similar aspects to them. In essence a function is something, *anything*, that takes some information (or things) as input(s) and produces some sort of output(s). For this specific function, we are trying to calculate the price on a given day in the future *given* how many days from now into the future. In other words, our function's output is the price and its input(s) is how many days into the future. Here is a graph of some days into the future (horizontally) and their respective prices using our equation (vertically)
 
-<div class="graph">
-  <iframe src="https://www.desmos.com/calculator/uwhcmfoyop?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
-</div>
+<iframe src="https://www.desmos.com/calculator/uwhcmfoyop?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 Look at the straight line that the function follows!
 
