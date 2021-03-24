@@ -9,7 +9,7 @@ draft: false
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <style>
-iframe { display: block; }
+iframe { margin: auto; }
 </style>
 
 ## Intro to functions
