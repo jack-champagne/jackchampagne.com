@@ -8,6 +8,10 @@ draft: false
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<style>
+iframe {margin: auto;}
+</style>
+
 ## Intro to functions
 
 Ok so for the first exploration of this page, I thought it would be excellent to discuss some basic math. My goal for this page is to be able to read it from bottom to top and for nearly everyone with a basic high-school level of math to be able to understand *visually* some important aspects of math. 
