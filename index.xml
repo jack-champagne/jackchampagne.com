@@ -1,5 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tidbits</title><link>https://jack-champagne.github.io/</link><description>Recent content on Tidbits</description><generator>Hugo 0.71.1 -- gohugo.io</generator><language>en</language><managingEditor>jackchampagne.r@gmail.com (Jack Champagne)</managingEditor><webMaster>jackchampagne.r@gmail.com (Jack Champagne)</webMaster><copyright>Jack Champagne — All rights reserved.</copyright><lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jack-champagne.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>\(\LaTeX \) Repository</title><link>https://jack-champagne.github.io/tex/</link><pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/tex/</guid><description>&lt;script src="https://polyfill.io/v3/polyfill.min.js?features=es6">&lt;/script>
 &lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">&lt;/script>
+&lt;style>
+iframe {margin: auto;}
+&lt;/style>
 &lt;h2 id="intro-to-functions">Intro to functions&lt;/h2>
 &lt;p>Ok so for the first exploration of this page, I thought it would be excellent to discuss some basic math. My goal for this page is to be able to read it from bottom to top and for nearly everyone with a basic high-school level of math to be able to understand &lt;em>visually&lt;/em> some important aspects of math.&lt;/p>
 &lt;p>Lets start with some aspects of math that we will build on in the future.
