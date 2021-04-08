@@ -16,7 +16,7 @@ For the uninitiated, the Fibonnaci numbers are a set of numbers that are recusiv
 
 And we have the starting numbers \\( F_0 = 0, \quad F_1 = 1 \\). From this, many beautiful and surprising relationships can be created. Nature and other seemingly unrelated bits of math in general reveal themselves to have intimate relationships with this simple relation.
 
-<p style="text-align:center"><iframe width="640" height="480" src="https://www.youtube.com/embed/ahXIMUkSXX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align:center"><iframe width="500" height="375" src="https://www.youtube.com/embed/ahXIMUkSXX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
 
