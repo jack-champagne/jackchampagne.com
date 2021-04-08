@@ -210,6 +210,6 @@ The coolest part in my opinion is what happens when we let the initial parameter
 <p style="text-align:center"><iframe src="https://www.desmos.com/calculator/b1hjwvrtug?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></p>
 
 Some of the next considerations that I could make and explore include what happens to this curve when we change the recurrance relation and add coefficients to the equation like this
-\\[F_{n+1} = c_1 F_{n+1} + c_2 F_{n} \\]
+\\[F_{n+2} = c_1 F_{n+1} + c_2 F_{n} \\]
 
 How does this change the eigenvalues and eigenvectors? What if we change the initial conditions for this new relationship? These are all interesting explorations that can be done but for now, I leave this for something to appreciate and possibly explore yourself. Here is the [link](https://www.desmos.com/calculator/cycgxam5ec) to the second graph if you want to explore that one.
