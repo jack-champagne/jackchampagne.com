@@ -1,7 +1,7 @@
 ---
 title: Fibonacci, Spirals, and the Complex Plane
 description: A blog post on fibonnaci
-date: 04-08-2021
+date: "2021-04-9"
 draft: false
 ---
 
