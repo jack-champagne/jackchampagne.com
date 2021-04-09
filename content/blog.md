@@ -16,7 +16,7 @@ For the uninitiated, the Fibonnaci numbers are a set of numbers that are recusiv
 
 And we have the starting numbers \\( F_0 = 0, \quad F_1 = 1 \\). From this, many beautiful and surprising relationships can be created. Nature and other seemingly unrelated bits of math in general reveal themselves to have intimate relationships with this simple relation.
 
-<p style="text-align:center"><iframe width="500" height="375" src="https://www.youtube.com/embed/ahXIMUkSXX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p style="text-align:center"><iframe src="https://www.youtube.com/embed/ahXIMUkSXX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 
 
@@ -189,25 +189,25 @@ Let's graph it! But first, we need to figure out how we want to graph this funct
 \\]
 
 Sweet! Let's first look at the graph of the real component of this function. Let the x-axis in this graph be \\(k\\) or the index of the Fibonnaci number.
-<p style="text-align:center"><iframe src="https://www.desmos.com/calculator/x526ua96f3?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></p>
+<p style="text-align:center"><iframe src="https://www.desmos.com/calculator/x526ua96f3?embed" style="border: 1px solid #ccc" frameborder=0></iframe></p>
 
 And now for the complex component of this function. Again, let the x-axis be \\(k\\) or the index of the Fibonnaci number.
-<p style="text-align:center"><iframe src="https://www.desmos.com/calculator/gflxigver1?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></p>
+<p style="text-align:center"><iframe src="https://www.desmos.com/calculator/gflxigver1?embed" style="border: 1px solid #ccc" frameborder=0></iframe></p>
 
 Finally, we graph both of them at the same time. We do this but defining a paramteric function where the parameter is \\(k\\) or the index of the fibonnaci number. Note that the axes now mean different things. The x-axis is the real component of the k-th fibonnaci number and the y-axis is the imaginary component of the k-th fibonnaci number. \\(k \\) varies from -20 to 20 and the green dot is \\(k-th \\) fibonnaci number and it varies from \\(k = -1.5\\) and \\(k = 4\\). And here's the final graph in all of its glory!
-<p style="text-align:center"><iframe src="https://www.desmos.com/calculator/0xdpor9rhl?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></iframe></p>
+<p style="text-align:center"><iframe src="https://www.desmos.com/calculator/0xdpor9rhl?embed" style="border: 1px solid #ccc" frameborder=0></iframe></iframe></p>
 
 Note how the zero-th fibonnaci number is at (0,0) and how this function passes through the point (1,0) twice! (three times if you include the negative first fibonnaci number!). The fibonnaci numbers spiral outwards when we look at negative fibonacci numbers, the \\(-1\\)st fibonacci number is \\(1\\) for example. The spiral looks like this zoomed out
-<p style="text-align:center"><iframe src="https://www.desmos.com/calculator/npxv17zrye?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></p>
+<p style="text-align:center"><iframe src="https://www.desmos.com/calculator/npxv17zrye?embed" style="border: 1px solid #ccc" frameborder=0></iframe></p>
 
 Feel free to play around with my graphs [here](https://www.desmos.com/calculator/k1ucihepaz), they are quite interesting to animate. You can also see some of the other details about fibonnaci and this particular thing in there.
 
 Another analysis that I wanted do to immediately after I saw Matt Parker's video was looking at other recursively defined number sets. For one, there are the lucas numbers, where it is the same rule as the fibonnaci relation but the starting values are \\(2, 1\\) respectively. So the sequence goes \\(2, 1, 3, 4, 7, \\dots \\).
 Here is a graph of that spiral!
-<p style="text-align:center"><iframe src="https://www.desmos.com/calculator/mfmodotd8v?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></p>
+<p style="text-align:center"><iframe src="https://www.desmos.com/calculator/mfmodotd8v?embed" style="border: 1px solid #ccc" frameborder=0></iframe></p>
 
 The coolest part in my opinion is what happens when we let the initial parameters change and see the resulting graph, here is a graph that animates the changing initial conditions for the recurrence relation and the changing curve.
-<p style="text-align:center"><iframe src="https://www.desmos.com/calculator/b1hjwvrtug?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></p>
+<p style="text-align:center"><iframe src="https://www.desmos.com/calculator/b1hjwvrtug?embed" style="border: 1px solid #ccc" frameborder=0></iframe></p>
 
 Some of the next considerations that I could make and explore include what happens to this curve when we change the recurrance relation and add coefficients to the equation like this
 \\[F_{n+2} = c_1 F_{n+1} + c_2 F_{n} \\]
