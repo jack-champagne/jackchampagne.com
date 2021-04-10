@@ -1,4 +1,13 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tidbits</title><link>https://jack-champagne.github.io/</link><description>Recent content on Tidbits</description><generator>Hugo 0.71.1 -- gohugo.io</generator><language>en</language><managingEditor>jackchampagne.r@gmail.com (Jack Champagne)</managingEditor><webMaster>jackchampagne.r@gmail.com (Jack Champagne)</webMaster><copyright>Jack Champagne — All rights reserved.</copyright><lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jack-champagne.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>\(\LaTeX \) Repository</title><link>https://jack-champagne.github.io/tex/</link><pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/tex/</guid><description>&lt;script src="https://polyfill.io/v3/polyfill.min.js?features=es6">&lt;/script>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tidbits</title><link>https://jack-champagne.github.io/</link><description>Recent content on Tidbits</description><generator>Hugo 0.71.1 -- gohugo.io</generator><language>en</language><managingEditor>jackchampagne.r@gmail.com (Jack Champagne)</managingEditor><webMaster>jackchampagne.r@gmail.com (Jack Champagne)</webMaster><copyright>Jack Champagne — All rights reserved.</copyright><lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jack-champagne.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Desmos Visualizations</title><link>https://jack-champagne.github.io/desmos/</link><pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/desmos/</guid><description>&lt;p style="text-align:center">
+&lt;p>Visualizing Taylor polynomials&lt;/p>
+&lt;iframe src="https://www.desmos.com/calculator/0sgkrlrcog?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0>&lt;/iframe>
+&lt;p>Fractional Fibonnaci and Lucas numbers, Generalized recurrance relations. &lt;a href="https://jackchampagne.com/blog">More on that here&lt;/a>&lt;/p>
+&lt;iframe src="https://www.desmos.com/calculator/phl7o1fl2e?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0>&lt;/iframe>
+&lt;p>The T-distribution used for small samples and its relationship with the normal distribution&lt;/p>
+&lt;iframe src="https://www.desmos.com/calculator/udp4xppu4d?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0>&lt;/iframe>
+&lt;p>Rotation matricies in Desmos!&lt;/p>
+&lt;iframe src="https://www.desmos.com/calculator/lhxbftenqa?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0>&lt;/iframe>
+&lt;/p></description></item><item><title>\(\LaTeX \) Repository</title><link>https://jack-champagne.github.io/tex/</link><pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/tex/</guid><description>&lt;script src="https://polyfill.io/v3/polyfill.min.js?features=es6">&lt;/script>
 &lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">&lt;/script>
 &lt;style>
 iframe { margin: auto; }
@@ -195,6 +204,55 @@ Been feeling inspired by a couple of people around me (Russotiro, NODE, and othe
 &lt;li>Linear Algebra for Applied Mathematics (Math 545)&lt;/li>
 &lt;/ul>
 &lt;h4 id="duxbury-high-school-class-of-2019">Duxbury High School: Class of 2019&lt;/h4>
+&lt;h2 id="activities">Activities&lt;/h2>
+&lt;ul>
+&lt;li>FIRST Robotics: Team 4908 (2014 - 2019)
+&lt;ul>
+&lt;li>Lead programmer, electrician, and robot driver&lt;/li>
+&lt;li>CNC operator and parts manufacturing assistant&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Boy Scouts of America (2011 - 2019)
+&lt;ul>
+&lt;li>Eagle Scout (2019)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>National Honors Society (2018 - 2019)&lt;/li>
+&lt;li>Duxbury Crew Team (2015 - 2016)&lt;/li>
+&lt;li>Duxbury Ski Team (2014 - 2015, 2016 - 2017)&lt;/li>
+&lt;li>Franconia Ski Club (2012 - 2018)&lt;/li>
+&lt;/ul></description></item><item><title>Resumé</title><link>https://jack-champagne.github.io/resume/</link><pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/resume/</guid><description>&lt;h1 id="resume">Resume&lt;/h1>
+&lt;p>I enjoy all things that require learning and engineering. I love to build, design, create, and understand.&lt;br> Anything I can do to help the world around me enjoy these things more is something that I take as a passion and truly enjoy!&lt;/p>
+&lt;h2 id="employment-history">Employment History&lt;/h2>
+&lt;h4 id="102019---present-umass-amherst-all-campus-makerspace---makerspace-staff">10/2019 - Present: UMass Amherst All-Campus Makerspace - Makerspace Staff&lt;/h4>
+&lt;ul>
+&lt;li>Employ knowledge of shop protocols and organization to create a safe and useful shop environment.&lt;/li>
+&lt;li>Assist students and Makerspace across various shop, technology, and computing projects.&lt;/li>
+&lt;li>Host small to medium sized educational workshops for other students interested in various topics such as computers, woodburning art, safe use of tools and shop equipment.&lt;/li>
+&lt;/ul>
+&lt;h4 id="102018---present-aircycler---programmer-and-software-engineer">10/2018 - Present: AirCycler© - Programmer and Software Engineer&lt;/h4>
+&lt;ul>
+&lt;li>Leading development on ventilation system simulation software to provide software and hardware testing suite for new products with predictive algorithm based on intended product behavior.&lt;/li>
+&lt;li>Overhauled a drive-on beach access tracking system for the Duxbury Beach Reservation.&lt;/li>
+&lt;/ul>
+&lt;h2 id="education">Education&lt;/h2>
+&lt;h4 id="2019---present-university-of-massachusetts-amherst---amherst-ma">2019 - Present: University of Massachusetts Amherst - Amherst, MA&lt;/h4>
+&lt;p>Major: B.S. Mathematics (Mathematical Computing, Statistics and Data Science)
+B.S. Computer Science&lt;/p>
+&lt;p>Expected Gradation date: Spring 2023
+Cumulative GPA: 4.0/4.0&lt;/p>
+&lt;h2 id="specific-skills">Specific Skills&lt;/h2>
+&lt;ul>
+&lt;li>Fluent in: Python, C++, Java, C#, LaTeX, Matlab, Jamstack, Web-developement.&lt;/li>
+&lt;li>Seasoned fabricator, maker, and passionate educator&lt;/li>
+&lt;li>Statistic analysis of data&lt;/li>
+&lt;/ul>
+&lt;h2 id="personal-projects">Personal Projects&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.jackchampagne.com/">Tidbits&lt;/a> (The site you are on right now)&lt;/li>
+&lt;li>&lt;a href="https://www.jackchampagne.com/desmos">Desmos Math Visualizations&lt;/a>&lt;/li>
+&lt;li>Check out my &lt;a href="https://github.com/jack-champagne">github page!&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;h2 id="activities">Activities&lt;/h2>
 &lt;ul>
 &lt;li>FIRST Robotics: Team 4908 (2014 - 2019)
@@ -457,7 +515,7 @@ and lions have excellent night vision.&lt;/p></description></item><item><title>W
 &lt;p>That teeth found from humans that lived 10,000 years ago have been found to have less gum disease,
 fewer cavities, less overcrowding and generally &lt;em>straighter&lt;/em> teeth?&lt;/p>
 &lt;p>Yeah, me neither, but a Scientific American article enlightened me today on how and possibly why that
-is the case.&lt;/p></description></item><item><title>Fibonacci, Spirals, and the Complex Plane</title><link>https://jack-champagne.github.io/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/blog/</guid><description>&lt;script src="https://polyfill.io/v3/polyfill.min.js?features=es6">&lt;/script>
+is the case.&lt;/p></description></item><item><title/><link>https://jack-champagne.github.io/posts/rocket/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/posts/rocket/</guid><description/></item><item><title>Fibonacci, Spirals, and the Complex Plane</title><link>https://jack-champagne.github.io/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/blog/</guid><description>&lt;script src="https://polyfill.io/v3/polyfill.min.js?features=es6">&lt;/script>
 &lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">&lt;/script>
 &lt;h1 id="the-fibonnaci-numbers">The Fibonnaci Numbers&lt;/h1>
 &lt;p>For the uninitiated, the Fibonnaci numbers are a set of numbers that are recusively defined by the following formula&lt;/p>
