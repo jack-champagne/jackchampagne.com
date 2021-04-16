@@ -1,7 +1,7 @@
 ---
 title: Fibonacci, Spirals, and the Complex Plane
 description: A blog post on fibonnaci
-date: 2021-04-8
+date: "2021-04-08"
 draft: false
 ---
 
@@ -10,22 +10,19 @@ draft: false
 
 # The Fibonnaci Numbers
 
-For the uninitiated, the Fibonnaci numbers are a set of numbers that are recusively defined by the following formula
-
-\\[ F_{n+2} = F_{n+1} + F_n \\]
-
-And we have the starting numbers \\( F_0 = 0, \quad F_1 = 1 \\). From this, many beautiful and surprising relationships can be created. Nature and other seemingly unrelated bits of math in general reveal themselves to have intimate relationships with this simple relation.
+There is a simple mathematical relationship that can be found intimately in many parts of nature and seemingly unrelated bits of math. This simple relationship and its emergent properties can be related to the geometry of pentagons, spirals in plants, and weather phenonmena like hurricanes. For the uninitiated, the Fibonnaci numbers are a set of numbers that are *recusively defined* meaning that the next number in the sequence can be found using the previous numbers. I first stumbled upon this mathematical gem many years ago in a Youtube video (see below) by [Vihart](https://www.youtube.com/user/Vihart).
 
 <p style="text-align:center"><iframe width="500" height="375" src="https://www.youtube.com/embed/ahXIMUkSXX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
+For this fibonnaci numbers, we use the following formula to find the next number in the sequence with the starting numbers \\( F_0 = 0, \quad F_1 = 1 \\).
 
+\\[ F_{n+2} = F_{n+1} + F_n \\]
 
-This three video series by Vihart I remember watching very young. I was entranced by the beauty and the elegance between the math and nature.
+Writing out the first few numbers, we have something like \\( 0, 1, 1, 2, 3, 5, 8, 23, \dots \\) and so on. If theres one thing that mathematicians love, it is generalizations and closed forms. In its current state, finding the n-th fibonnaci number \\( F_n \\) requires us to calculate \\( F_{n-1} \\) which requires us to calculate \\( F_{n-2} \\) which requires us to.... and so on. Finding the 100000th fibonnaci number sounds like something that will take forever. What if there was a better way? Using a little bit of linear algebra, we can show that there *is* a better way. If you aren't too familiar with linear algebra, don't worry about this part, it is just a derivation of a well known attribute of the fibonnaci sequence.
 
-Writing out the first few numbers, we have something like \\( 0, 1, 1, 2, 3, 5, 8, 23, \dots \\) and so on. If theres one thing that mathematicians love, it is generalizations and closed forms. In its current state, finding the n-th fibonnaci number \\( F_n \\) requires us to calculate \\( F_{n-1} \\) which requires us to calculate \\( F_{n-2} \\) which requires us to.... and so on. Finding the 100000th fibonnaci number sounds like something that will take forever. What if there was a better way? Using a little bit of linear algebra, we can show that there *is* a better way.
+What we will do in this next part is do a matrix diagonalization. But not to worry! In essence, we will find a way to calculate the n-th fibonnaci number without having to calculate all the previous numbers.
 
-First let's set up the equations we have and what we know is true.
-
+First let's set up two equations we have and what we know is true.
 \\[ \begin{aligned}
 F_{n+2} &= F_{n+1} + F_{n} \\\\
 F_{n+1} &= F_{n+1}
@@ -40,17 +37,17 @@ F_{n+1}
 = \\begin{bmatrix}
 1 & 1\\\\
 1 & 0
-\\end{bmatrix} 
+\\end{bmatrix}
 \\begin{bmatrix}
 F_{n+1}\\\\
 F_{n}
 \\end{bmatrix}
 \\]
 
-\\[ \\overrightarrow{F}\_{n+1}  = 
+\\[ \\overrightarrow{F}\_{n+1}  =
 \\mathbf{A} \\vec{F_{n}} \\]
 
-Now if we want to find the n-th fibonnaci number, and we know \\( \\vec{F_1} = \\begin{bmatrix} 1\\\\0 \\end{bmatrix}\\), we can apply our tranformation matrix multiple times.
+Now if we want to find the n-th fibonnaci number, and we know \\( \\vec{F_1} = \\begin{bmatrix} 1\\\\0 \\end{bmatrix}\\), we can apply our transformation matrix multiple times.
 
 \\[ \begin{aligned}
 \\vec{F_1} &= \\mathbf{A} \\vec{F_0}\\\\
@@ -60,22 +57,22 @@ Now if we want to find the n-th fibonnaci number, and we know \\( \\vec{F_1} = \
 \end{aligned}
 \\]
 
-Now we are getting closer to a more direct way to computing fibonnaci directly. Unfortunately, taking higher and higher powers of a matrix is computationally the same problem as computing fibonnaci directly, a better approach to find higher powers of this matrix would be to first do something called **diagonalization** of this matrix. Diagonalization leverages special attributes of matricies called eigenvalues and eigenvectors so that we can preform the following factorization. If interested, read more [here on wikipedia](https://en.wikipedia.org/wiki/Diagonalizable_matrix)
+Now we are getting closer to a more direct way to computing fibonnaci directly. Unfortunately, taking higher and higher powers of a matrix is computationally the same problem as computing fibonnaci directly, the trick to approach finding higher powers of this matrix is what the **diagonalization** will give us. Diagonalization leverages special attributes of matrices called eigenvalues and eigenvectors so that we can simplify this problem (and problems like it). If interested, read more [here on wikipedia](https://en.wikipedia.org/wiki/Diagonalizable_matrix). Here is how we will split up our matrix \\(\\mathbf{A} \\):
 
 \\[\\mathbf{A} = \\mathbf{S} \\mathbf{\Lambda} \\mathbf{S}^{-1} \\]
 
 This factorization [(which I will not go through in detail)](https://en.wikipedia.org/wiki/Diagonalizable_matrix#Application_to_matrix_functions) allows us to take higher powers of a matrix easily, as so
 
-\\[\\mathbf{A}^k = \\mathbf{S} \\mathbf{\Lambda}^k \\mathbf{S}^{-1}  \\]
+\\[\\mathbf{A}^k = (\\mathbf{S} \\mathbf{\Lambda} \\mathbf{S}^{-1})^k = (\\mathbf{S} \\mathbf{\Lambda} \\mathbf{S}^{-1})(\\mathbf{S} \\mathbf{\Lambda} \\mathbf{S}^{-1}) \\dots (\\mathbf{S} \\mathbf{\Lambda} \\mathbf{S}^{-1}) = \\mathbf{S} \\mathbf{\Lambda}^k \\mathbf{S}^{-1}  \\]
 
 The best part is, \\( \\Lambda \\) is a *diagonal matrix* which allows us to compute higher powers of it extremely easily, all we have to do is take higher powers of each of the elements to compute higher powers of the matrix.
 
 So continuing, we will find the diagonalization of matrix A and we will find from that, a closed-form equation that will give us the n-th fibonnaci number. Here begins our diagonlizations procedure. You can skip this if you don't feel like checking my work but its just finding the eigenvalues and eigenvectors for our matrix.
 
-First finding the eigenvectors:
+First finding the eigenvalues. Essentially eigenvalues and eigenvectors give us a special vector that when multiplied by a matrix gives back simple multiple of the original vector. \\(\\mathbf{A}\\vec{x} = \\lambda \\vec{x} \\). For an random vector (not the zero vector) this is normally not the case. These vectors, and the factors they get multipled by, will give us the information we need to construct our diagonalization. We know that \\(\\mathbf{A}\\vec{x} = \\lambda \\vec{x} \\) and because of that \\(\\mathbf{A}\\vec{x} - \\lambda \\vec{x} = \vec{0} \\) and the following. \\( \\left( \\mathbf{A} - \\lambda \\mathbf{I} \\right) \\vec{x} = \\vec{0}\\). We can solve for the value of lambda by taking the [determinant](https://en.wikipedia.org/wiki/Determinant) and setting it equal to zero, as per the following.
 
 \\[\\begin{aligned}
-\\begin{vmatrix}    
+\\begin{vmatrix}
 1 - \\lambda & 1\\\\
 1 & -\\lambda \\\\
 \\end{vmatrix} &= 0\\\\\\\\
@@ -85,10 +82,11 @@ First finding the eigenvectors:
 
 \\[\\lambda = \\frac{1 \\pm \\sqrt{(-1)^2 - 4(1)(-1)}}{2(1)} = \\frac{1 \\pm \\sqrt{5}}{2} \\]
 
-Now finding the eigen vectors for \\(\\lambda_1 = \\frac{1 + \\sqrt{5}}{2} \\)
+Now we find the eigenvector for \\(\\lambda_1 = \\frac{1 + \\sqrt{5}}{2} \\) by looking at the [nullspace/kernel](https://en.wikipedia.org/wiki/Kernel_(linear_algebra)) of \\( \\left( \\mathbf{A} - \\lambda \\mathbf{I} \\right) \\) which is basically all vectors \\(\\vec{x} \\) that satisfy the following condition  \\( \\left( \\mathbf{A} - \\lambda_1 \\mathbf{I} \\right) \\vec{x} = \\vec{0} \\)
+
 \\[
 \\begin{aligned}
-\\textbf{Nul}(\\mathbf{A} - \\tfrac{1 + \\sqrt{5}}{2} \\mathbf{I}) &= \\begin{bmatrix}
+\\textbf{Nul}\\left(\\mathbf{A} - \\tfrac{1 + \\sqrt{5}}{2} \\mathbf{I}\\right) &= \\begin{bmatrix}
 1 - \\frac{1 + \\sqrt{5}}{2} & 1 & 0\\\\
 1 & - \\frac{1 + \\sqrt{5}}{2} & 0\\\\
 \\end{bmatrix}\\\\
@@ -107,12 +105,12 @@ Now finding the eigen vectors for \\(\\lambda_1 = \\frac{1 + \\sqrt{5}}{2} \\)
 \\end{aligned}
 \\]
 
-So, for \\(\\lambda_1: \\begin{bmatrix} \\frac{1 + \\sqrt{5}}{2}\\\\ 1 \\end{bmatrix}\\)
+We translate back out from these equations \\( x_1 = t \\frac{1 + \\sqrt{5}}{2}\\) and \\( x_2 = t \\) to find a basis for the kernel (which will be an eigenvector). Setting \\(t = 1\\), we get the following \\(\\lambda_1: \\begin{bmatrix} \\frac{1 + \\sqrt{5}}{2}\\\\ 1 \\end{bmatrix}\\). Which is an eigenvector that works for eigenvector/eigenvalue relationship defined in the beginning of this section. Now, we do the same thing for the other eigenvalue.
 
 Now for \\(\\lambda_2 = \\frac{1 - \\sqrt{5}}{2} \\)
 \\[
 \\begin{aligned}
-\\textbf{Nul}(\\mathbf{A} - \\tfrac{1 - \\sqrt{5}}{2} \\mathbf{I}) &= \\begin{bmatrix}
+\\textbf{Nul}\\left(\\mathbf{A} - \\tfrac{1 - \\sqrt{5}}{2} \\mathbf{I}\\right) &= \\begin{bmatrix}
 1 - \\frac{1 - \\sqrt{5}}{2} & 1 & 0\\\\
 1 & - \\frac{1 - \\sqrt{5}}{2} & 0\\\\
 \\end{bmatrix}\\\\
@@ -133,7 +131,7 @@ Now for \\(\\lambda_2 = \\frac{1 - \\sqrt{5}}{2} \\)
 
 So, for \\(\\lambda_2: \\begin{bmatrix} \\frac{1 - \\sqrt{5}}{2}\\\\ 1 \\end{bmatrix}\\)
 
-And now we can construct our diagonalized factorization per the diagonalization procedure. Eigenvectors and eigenvalues in corresponding columns
+And now we can construct our diagonalized factorization per the diagonalization procedure. Eigenvectors and eigenvalues go corresponding columns. If the first eigenvalue goes into the first column of \\(\\lambda\\) then its eigenvector goes into the first column of \\(\\mathbf{S}\\) and \\(\\mathbf{S}^{-1}\\).
 
 \\[
 \\begin{aligned}
@@ -152,7 +150,7 @@ F_k = \\begin{bmatrix}
 \\end{aligned}
 \\]
 
-And finally we arrive at the equation after some multiplication called the Binet formula, it is a relationship using the [golden ratio](https://en.wikipedia.org/wiki/Golden_ratio) that corresponds to the \\(n\\)th fibonnaci number. Since we only care about the top equation as it is the fibonnaci relation, we will focus on that
+And finally we arrive after some multiplication and taking a quick matrix inverse at the equation called the Binet formula. It is a relationship using the [golden ratio](https://en.wikipedia.org/wiki/Golden_ratio) that can give us the \\(n\\)th fibonnaci number. Since we only care about the top equation as it is the fibonnaci relation (and not just \\(F_{n+1} = F_{n+1} \\)), we will focus on that.
 
 \\[ \\begin{bmatrix}
 F_{k}\\\\
@@ -163,7 +161,7 @@ F_{k-1}\\\\
 
 \\[ F_k = \\frac{\\left ( \\frac{1 + \\sqrt{5}}{2} \\right )^k - \\left ( \\frac{1 - \\sqrt{5}}{2} \\right )^k}{\\sqrt{5}} \\]
 
-This is an amazing thing! Being able to find the \\(n\\)th fibonnaci number without expensive recursive addition with some exponentiation, addition, and division. The main topic of this blog post is not actually on this equation though, it is more about the following generalization. I'm sure you never thought about the 4.5th fibonnaci number, but now you see it might be calculable! We can plug any number into the exponent of the Binet equation. Naturally, I grab a calculator, type in the equation and I am disappointed when it spits back out error. It became quickly apparent why it did so. The second half of the equation \\( \\left ( \\frac{1 - \\sqrt{5}}{2} \\right )^k \\) becomes problematic without careful analysis.
+This is an amazing thing! Being able to find the \\(n\\)th fibonnaci number without expensive recursive addition with some exponentiation, addition, and division. The main topic of this blog post is not actually on this equation though, it is more about the following generalization. I'm sure you have never thought about the 4.5th fibonnaci number, but now you see it might be calculable! We can plug any number into the exponent of the Binet equation. Naturally, I grab a calculator, type in the equation and I am disappointed when it spits back out error. It became quickly apparent why it did so. The second half of the equation \\( \\left ( \\frac{1 - \\sqrt{5}}{2} \\right )^k \\) becomes problematic without careful analysis.
 
 Observe that the base of this exponentiation is negative! (\\(\\approx -0.6 \\)), the issue is when we try to raise a negative number to a fractional power, we can end up in a situation like this
 
