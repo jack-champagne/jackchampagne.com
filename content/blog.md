@@ -169,7 +169,13 @@ Observe that the base of this exponentiation is negative! (\\(\\approx -0.6 \\))
 
 And uh oh, we're in the complex plane. But this is still an answer, and here we have come to a stunning realization, fractional fibonnaci numbers are complex! This next part is some personal work exploring this and a few fun graphs. Before I go into my own analysis, I'd like to mention the inspiration for this post, Matt Parker and his youtube channel [(Stand Up Maths)](https://www.youtube.com/user/standupmaths) posted a video called [Complex Fibonacci Numbers?](https://www.youtube.com/watch?v=ghxQA3vvhsk) in June 2020 which inspired me to make this blog post. A lot of the ideas are borrowed from that video.
 
-Let's graph it! But first, we need to figure out how we want to graph this function. A common approach it to use the x-axis for the real-valued part of the function and use the y-axis for the imaginary-valued part of the function.
+Let's graph it! But first, we need to figure out how we want to graph this function. A common approach it to use the x-axis for the real-valued part of the function and use the y-axis for the imaginary-valued part of the function. To find these components, I am using a little manipulation that looks like the following
+
+\\[
+Re((-b)^{x}) = |-b|^{x} cos(x \\pi))
+\\]
+
+For Imaginary component, same thing except we use sine. And now, we decompose into components...
 
 \\[
 \\begin{aligned} 
@@ -178,6 +184,8 @@ Let's graph it! But first, we need to figure out how we want to graph this funct
 &= \\frac{\\left ( \\frac{1 + \\sqrt{5}}{2} \\right )^k - \\left | \\frac{1 - \\sqrt{5}}{2} \\right |^k cos(k \\pi )}{\\sqrt{5}}
 \\end{aligned}
 \\]
+
+And now the imaginary part. 
 
 \\[
 \\begin{aligned}
