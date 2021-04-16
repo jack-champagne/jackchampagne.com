@@ -136,7 +136,11 @@ F_{k-1}\\&lt;br>
 &lt;p>Observe that the base of this exponentiation is negative! (\(\approx -0.6 \)), the issue is when we try to raise a negative number to a fractional power, we can end up in a situation like this&lt;/p>
 &lt;p>\[ (-0.6)^{4.5} = (-0.6)^{\frac{9}{2}} = \sqrt{-(0.6)^9} \]&lt;/p>
 &lt;p>And uh oh, we&amp;rsquo;re in the complex plane. But this is still an answer, and here we have come to a stunning realization, fractional fibonnaci numbers are complex! This next part is some personal work exploring this and a few fun graphs. Before I go into my own analysis, I&amp;rsquo;d like to mention the inspiration for this post, Matt Parker and his youtube channel &lt;a href="https://www.youtube.com/user/standupmaths">(Stand Up Maths)&lt;/a> posted a video called &lt;a href="https://www.youtube.com/watch?v=ghxQA3vvhsk">Complex Fibonacci Numbers?&lt;/a> in June 2020 which inspired me to make this blog post. A lot of the ideas are borrowed from that video.&lt;/p>
-&lt;p>Let&amp;rsquo;s graph it! But first, we need to figure out how we want to graph this function. A common approach it to use the x-axis for the real-valued part of the function and use the y-axis for the imaginary-valued part of the function.&lt;/p>
+&lt;p>Let&amp;rsquo;s graph it! But first, we need to figure out how we want to graph this function. A common approach it to use the x-axis for the real-valued part of the function and use the y-axis for the imaginary-valued part of the function. To find these components, I am using a little manipulation that looks like the following&lt;/p>
+&lt;p>\[
+Re((-b)^{x}) = |-b|^{x} cos(x \pi))
+\]&lt;/p>
+&lt;p>For Imaginary component, same thing except we use sine. And now, we decompose into components&amp;hellip;&lt;/p>
 &lt;p>\[
 \begin{aligned}
 \text{Re}\left( \frac{\left ( \frac{1 + \sqrt{5}}{2} \right )^k - \left( \frac{1 - \sqrt{5}}{2} \right )^k}{\sqrt{5}} \right) &amp;amp;= \frac{\left ( \frac{1 + \sqrt{5}}{2} \right )^k}{\sqrt{5}} - \text{Re}\left( \frac{\left( \frac{1 - \sqrt{5}}{2} \right )^k}{\sqrt{5}} \right )\\&lt;br>
@@ -144,6 +148,7 @@ F_{k-1}\\&lt;br>
 &amp;amp;= \frac{\left ( \frac{1 + \sqrt{5}}{2} \right )^k - \left | \frac{1 - \sqrt{5}}{2} \right |^k cos(k \pi )}{\sqrt{5}}
 \end{aligned}
 \]&lt;/p>
+&lt;p>And now the imaginary part.&lt;/p>
 &lt;p>\[
 \begin{aligned}
 \text{Img}\left( \frac{\left ( \frac{1 + \sqrt{5}}{2} \right )^k + \left( \frac{1 - \sqrt{5}}{2} \right )^k}{\sqrt{5}} \right) &amp;amp;= \text{Img}\left( \frac{\left( \frac{1 - \sqrt{5}}{2} \right )^k}{\sqrt{5}} \right )\\&lt;br>
