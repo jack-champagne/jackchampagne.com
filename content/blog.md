@@ -135,7 +135,23 @@ And now we can construct our diagonalized factorization per the diagonalization 
 
 \\[
 \\begin{aligned}
-F_k = \\begin{bmatrix}
+A^k &= \\begin{bmatrix}
+\\frac{1 + \\sqrt{5}}{2} & \\frac{1 - \\sqrt{5}}{2} \\\\
+1 & 1\\\\
+\\end{bmatrix}
+\\begin{bmatrix}
+\\frac{1 + \\sqrt{5}}{2} & 0 \\\\
+0 & \\frac{1 - \\sqrt{5}}{2} \\\\
+\\end{bmatrix}^k
+\\begin{bmatrix}
+\\frac{1 + \\sqrt{5}}{2} & \\frac{1 - \\sqrt{5}}{2} \\\\
+1 & 1\\\\
+\\end{bmatrix}^{-1}\\\\
+\\begin{bmatrix}
+F_{k+1} \\\\
+F_{k}
+\\end{bmatrix}
+&= \\begin{bmatrix}
 \\frac{1 + \\sqrt{5}}{2} & \\frac{1 - \\sqrt{5}}{2} \\\\
 1 & 1\\\\
 \\end{bmatrix}
@@ -147,16 +163,21 @@ F_k = \\begin{bmatrix}
 \\frac{1 + \\sqrt{5}}{2} & \\frac{1 - \\sqrt{5}}{2} \\\\
 1 & 1\\\\
 \\end{bmatrix}^{-1}
+\\begin{bmatrix}
+1 \\\\
+0
+\\end{bmatrix}
 \\end{aligned}
 \\]
 
-And finally we arrive after some multiplication and taking a quick matrix inverse at the equation called the Binet formula. It is a relationship using the [golden ratio](https://en.wikipedia.org/wiki/Golden_ratio) that can give us the \\(n\\)th fibonnaci number. Since we only care about the top equation as it is the fibonnaci relation (and not just \\(F_{n+1} = F_{n+1} \\)), we will focus on that.
+And finally we arrive after some multiplication and taking a quick matrix inverse at the equation called the Binet formula. It is a relationship using the [golden ratio](https://en.wikipedia.org/wiki/Golden_ratio) that can give us the \\(n\\)th fibonnaci number. Since we only care about the bottom equation as it is the fibonnaci relation \\(F_{k} \\), we will focus on that.
 
 \\[ \\begin{bmatrix}
+F_{k+1}\\\\
 F_{k}\\\\
-F_{k-1}\\\\
 \\end{bmatrix} = \\begin{bmatrix}
-\\frac{\\left ( \\frac{1 + \\sqrt{5}}{2} \\right )^k - \\left ( \\frac{1 - \\sqrt{5}}{2} \\right )^k}{\\sqrt{5}} \\\\ \\dots
+\\frac{\\left ( \\frac{1 + \\sqrt{5}}{2} \\right )^{k+1} - \\left ( \\frac{1 - \\sqrt{5}}{2} \\right )^{k+1}}{\\sqrt{5}} \\\\
+\\frac{\\left ( \\frac{1 + \\sqrt{5}}{2} \\right )^k - \\left ( \\frac{1 - \\sqrt{5}}{2} \\right )^k}{\\sqrt{5}}
 \\end{bmatrix} \\]
 
 \\[ F_k = \\frac{\\left ( \\frac{1 + \\sqrt{5}}{2} \\right )^k - \\left ( \\frac{1 - \\sqrt{5}}{2} \\right )^k}{\\sqrt{5}} \\]
@@ -210,7 +231,7 @@ Feel free to play around with my graphs [here](https://www.desmos.com/calculator
 
 Another analysis that I wanted do to immediately after I saw Matt Parker's video was looking at other recursively defined number sets. For one, there are the lucas numbers, where it is the same rule as the fibonnaci relation but the starting values are \\(2, 1\\) respectively. So the sequence goes \\(2, 1, 3, 4, 7, \\dots \\).
 Here is a graph of that spiral!
-<p style="text-align:center"><iframe src="https://www.desmos.com/calculator/mfmodotd8v?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></p>
+<p style="text-align:center"><iframe src="https://www.desmos.com/calculator/pwelsrbr20?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></p>
 
 The coolest part in my opinion is what happens when we let the initial parameters change and see the resulting graph, here is a graph that animates the changing initial conditions for the recurrence relation and the changing curve.
 <p style="text-align:center"><iframe src="https://www.desmos.com/calculator/b1hjwvrtug?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe></p>
