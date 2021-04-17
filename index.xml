@@ -110,7 +110,23 @@ F_{n}
 &lt;p>And now we can construct our diagonalized factorization per the diagonalization procedure. Eigenvectors and eigenvalues go corresponding columns. If the first eigenvalue goes into the first column of \(\lambda\) then its eigenvector goes into the first column of \(\mathbf{S}\) and \(\mathbf{S}^{-1}\).&lt;/p>
 &lt;p>\[
 \begin{aligned}
-F_k = \begin{bmatrix}
+A^k &amp;amp;= \begin{bmatrix}
+\frac{1 + \sqrt{5}}{2} &amp;amp; \frac{1 - \sqrt{5}}{2} \\&lt;br>
+1 &amp;amp; 1\\&lt;br>
+\end{bmatrix}
+\begin{bmatrix}
+\frac{1 + \sqrt{5}}{2} &amp;amp; 0 \\&lt;br>
+0 &amp;amp; \frac{1 - \sqrt{5}}{2} \\&lt;br>
+\end{bmatrix}^k
+\begin{bmatrix}
+\frac{1 + \sqrt{5}}{2} &amp;amp; \frac{1 - \sqrt{5}}{2} \\&lt;br>
+1 &amp;amp; 1\\&lt;br>
+\end{bmatrix}^{-1}\\&lt;br>
+\begin{bmatrix}
+F_{k+1} \\&lt;br>
+F_{k}
+\end{bmatrix}
+&amp;amp;= \begin{bmatrix}
 \frac{1 + \sqrt{5}}{2} &amp;amp; \frac{1 - \sqrt{5}}{2} \\&lt;br>
 1 &amp;amp; 1\\&lt;br>
 \end{bmatrix}
@@ -122,14 +138,19 @@ F_k = \begin{bmatrix}
 \frac{1 + \sqrt{5}}{2} &amp;amp; \frac{1 - \sqrt{5}}{2} \\&lt;br>
 1 &amp;amp; 1\\&lt;br>
 \end{bmatrix}^{-1}
+\begin{bmatrix}
+1 \\&lt;br>
+0
+\end{bmatrix}
 \end{aligned}
 \]&lt;/p>
-&lt;p>And finally we arrive after some multiplication and taking a quick matrix inverse at the equation called the Binet formula. It is a relationship using the &lt;a href="https://en.wikipedia.org/wiki/Golden_ratio">golden ratio&lt;/a> that can give us the \(n\)th fibonnaci number. Since we only care about the top equation as it is the fibonnaci relation (and not just \(F_{n+1} = F_{n+1} \)), we will focus on that.&lt;/p>
+&lt;p>And finally we arrive after some multiplication and taking a quick matrix inverse at the equation called the Binet formula. It is a relationship using the &lt;a href="https://en.wikipedia.org/wiki/Golden_ratio">golden ratio&lt;/a> that can give us the \(n\)th fibonnaci number. Since we only care about the bottom equation as it is the fibonnaci relation \(F_{k} \), we will focus on that.&lt;/p>
 &lt;p>\[ \begin{bmatrix}
+F_{k+1}\\&lt;br>
 F_{k}\\&lt;br>
-F_{k-1}\\&lt;br>
 \end{bmatrix} = \begin{bmatrix}
-\frac{\left ( \frac{1 + \sqrt{5}}{2} \right )^k - \left ( \frac{1 - \sqrt{5}}{2} \right )^k}{\sqrt{5}} \\ \dots
+\frac{\left ( \frac{1 + \sqrt{5}}{2} \right )^{k+1} - \left ( \frac{1 - \sqrt{5}}{2} \right )^{k+1}}{\sqrt{5}} \\&lt;br>
+\frac{\left ( \frac{1 + \sqrt{5}}{2} \right )^k - \left ( \frac{1 - \sqrt{5}}{2} \right )^k}{\sqrt{5}}
 \end{bmatrix} \]&lt;/p>
 &lt;p>\[ F_k = \frac{\left ( \frac{1 + \sqrt{5}}{2} \right )^k - \left ( \frac{1 - \sqrt{5}}{2} \right )^k}{\sqrt{5}} \]&lt;/p>
 &lt;p>This is an amazing thing! Being able to find the \(n\)th fibonnaci number without expensive recursive addition with some exponentiation, addition, and division. The main topic of this blog post is not actually on this equation though, it is more about the following generalization. I&amp;rsquo;m sure you have never thought about the 4.5th fibonnaci number, but now you see it might be calculable! We can plug any number into the exponent of the Binet equation. Naturally, I grab a calculator, type in the equation and I am disappointed when it spits back out error. It became quickly apparent why it did so. The second half of the equation \( \left ( \frac{1 - \sqrt{5}}{2} \right )^k \) becomes problematic without careful analysis.&lt;/p>
@@ -166,7 +187,7 @@ Re((-b)^{x}) = |-b|^{x} cos(x \pi))
 &lt;p>Feel free to play around with my graphs &lt;a href="https://www.desmos.com/calculator/k1ucihepaz">here&lt;/a>, they are quite interesting to animate. You can also see some of the other details about fibonnaci and this particular thing in there.&lt;/p>
 &lt;p>Another analysis that I wanted do to immediately after I saw Matt Parker&amp;rsquo;s video was looking at other recursively defined number sets. For one, there are the lucas numbers, where it is the same rule as the fibonnaci relation but the starting values are \(2, 1\) respectively. So the sequence goes \(2, 1, 3, 4, 7, \dots \).
 Here is a graph of that spiral!&lt;/p>
-&lt;p style="text-align:center">&lt;iframe src="https://www.desmos.com/calculator/mfmodotd8v?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0>&lt;/iframe>&lt;/p>
+&lt;p style="text-align:center">&lt;iframe src="https://www.desmos.com/calculator/pwelsrbr20?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0>&lt;/iframe>&lt;/p>
 &lt;p>The coolest part in my opinion is what happens when we let the initial parameters change and see the resulting graph, here is a graph that animates the changing initial conditions for the recurrence relation and the changing curve.&lt;/p>
 &lt;p style="text-align:center">&lt;iframe src="https://www.desmos.com/calculator/b1hjwvrtug?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0>&lt;/iframe>&lt;/p>
 &lt;p>Some of the next considerations that I could make and explore include what happens to this curve when we change the recurrance relation and add coefficients to the equation like this
