@@ -1,7 +1,7 @@
 ---
 title: Fibonacci, Spirals, and the Complex Plane
 description: A blog post on fibonnaci
-date: "2021-04-08"
+date: "2021-04-26"
 draft: false
 ---
 
@@ -10,7 +10,7 @@ draft: false
 
 # The Fibonnaci Numbers
 
-There is a simple mathematical relationship that can be found intimately in many parts of nature and seemingly unrelated bits of math. This simple relationship and its emergent properties can be related to the geometry of pentagons, spirals in plants, and weather phenonmena like hurricanes. For the uninitiated, the Fibonnaci numbers are a set of numbers that are *recusively defined* meaning that the next number in the sequence can be found using the previous numbers. I first stumbled upon this mathematical gem many years ago in a Youtube video (see below) by [Vihart](https://www.youtube.com/user/Vihart).
+There is a simple mathematical relationship that can be found intimately in many parts of nature and seemingly unrelated bits of math. This simple relationship and its emergent properties can be related to the geometry of pentagons, spirals in plants, and weather phenonmena like hurricanes. For the uninitiated, the Fibonnaci numbers are a set of numbers that are *recusively defined* meaning that the next number in the sequence can be found using the previous numbers. I first stumbled upon this mathematical gem many years ago in a Youtube video (see below) by [Vihart](https://www.youtube.com/user/Vihart).[^1]
 
 <p style="text-align:center"><iframe width="500" height="375" src="https://www.youtube.com/embed/ahXIMUkSXX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
@@ -57,7 +57,7 @@ Now if we want to find the n-th fibonnaci number, and we know \\( \\vec{F_1} = \
 \end{aligned}
 \\]
 
-Now we are getting closer to a more direct way to computing fibonnaci directly. Unfortunately, taking higher and higher powers of a matrix is computationally the same problem as computing fibonnaci directly, the trick to approach finding higher powers of this matrix is what the **diagonalization** will give us. Diagonalization leverages special attributes of matrices called eigenvalues and eigenvectors so that we can simplify this problem (and problems like it). If interested, read more [here on wikipedia](https://en.wikipedia.org/wiki/Diagonalizable_matrix). Here is how we will split up our matrix \\(\\mathbf{A} \\):
+Now we are getting closer to a more direct way to computing fibonnaci. Unfortunately, taking higher and higher powers of a matrix is computationally the same problem as computing fibonnaci directly, the trick to approach finding higher powers of this matrix is what the **diagonalization** will give us. Diagonalization leverages special attributes of matrices called eigenvalues and eigenvectors so that we can simplify this problem (and problems like it). If interested, read more [here on wikipedia](https://en.wikipedia.org/wiki/Diagonalizable_matrix).[^3] Here is how we will split up our matrix \\(\\mathbf{A} \\):
 
 \\[\\mathbf{A} = \\mathbf{S} \\mathbf{\Lambda} \\mathbf{S}^{-1} \\]
 
@@ -188,7 +188,7 @@ Observe that the base of this exponentiation is negative! (\\(\\approx -0.6 \\))
 
 \\[ (-0.6)^{4.5} = (-0.6)^{\frac{9}{2}} = \\sqrt{-(0.6)^9} \\]
 
-And uh oh, we're in the complex plane. But this is still an answer, and here we have come to a stunning realization, fractional fibonnaci numbers are complex! This next part is some personal work exploring this and a few fun graphs. Before I go into my own analysis, I'd like to mention the inspiration for this post, Matt Parker and his youtube channel [(Stand Up Maths)](https://www.youtube.com/user/standupmaths) posted a video called [Complex Fibonacci Numbers?](https://www.youtube.com/watch?v=ghxQA3vvhsk) in June 2020 which inspired me to make this blog post. A lot of the ideas are borrowed from that video.
+And uh oh, we're in the complex plane. But this is still an answer, and here we have come to a stunning realization, fractional fibonnaci numbers are complex! This next part is some personal work exploring this and a few fun graphs. Before I go into my own analysis, I'd like to mention the inspiration for this post, Matt Parker and his youtube channel [(Stand Up Maths)](https://www.youtube.com/user/standupmaths) posted a video called [Complex Fibonacci Numbers?](https://www.youtube.com/watch?v=ghxQA3vvhsk) in June 2020 which inspired me to make this blog post.[^2] A lot of the ideas are borrowed from that video.
 
 Let's graph it! But first, we need to figure out how we want to graph this function. A common approach it to use the x-axis for the real-valued part of the function and use the y-axis for the imaginary-valued part of the function. To find these components, I am using a little manipulation that looks like the following
 
@@ -240,3 +240,9 @@ Some of the next considerations that I could make and explore include what happe
 \\[F_{n+2} = c_1 F_{n+1} + c_2 F_{n} \\]
 
 How does this change the eigenvalues and eigenvectors? What if we change the initial conditions for this new relationship? These are all interesting explorations that can be done but for now, I leave this for something to appreciate and possibly explore yourself. Here is the [link](https://www.desmos.com/calculator/cycgxam5ec) to the second graph if you want to explore that one.
+
+## References
+
+[^1]: Victoria Hart. Doodling in math: Spirals, fibonnaci, and being a plant [1 of 3], Dec 2011.
+[^2]: Matt Parker. Complex fibonnaci numbers?, Jul 2020.
+[^3]: Wikipedia Contributors. Diagonalizable matrix, Apr 2021.
