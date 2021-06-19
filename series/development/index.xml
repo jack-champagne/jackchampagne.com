@@ -203,4 +203,10 @@ Jack&lt;/p></description></item><item><title>An update about this site</title><l
 &lt;p>Anywho, the makerspace wrapped up activities for the semester and we ended on a good note as a team. I am looking forward to the summer, getting to spend a little time with my girlfriend, working at AirCycler© (which I will be doing remotely, woohoo!), doing some manual labor in Berlin, NY for my family (Dyken Pond &amp;amp; Center Berlin), and taking care of stuff at home in Duxbury.&lt;/p>
 &lt;p>Hope this was a good read if you were curious!
 Talk soon,
-Jack&lt;/p></description></item></channel></rss>
+Jack&lt;/p></description></item><item><title>Slow roll of changes</title><link>https://jack-champagne.github.io/posts/2021-06-18-more-updates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/posts/2021-06-18-more-updates/</guid><description>&lt;p>Watching a lot of George Hotz recently. I am deeply inspired by his skills and his constant focus on his work. comma.ai and his new streams about the cherry computer are deeply interesting to me and I find that his content in general relates very well with my studies in statistics, mathematics, data science, machine learning, deep learning, and general computer science.&lt;/p>
+&lt;p>I started my REU (TRIPODS @ University of Massachusetts, Amherst) on Monday the 7th and since then have trained multiple models on my computer (actually my laptop because it has cuda cores). I am working on implementing a g-convolution into a new network to try and improve my preformance on a rotated and mirrored MNIST dataset. I haven&amp;rsquo;t quite figured out how each of the dimensions to my convolution is going to fit into the training but progress is coming along.&lt;/p>
+&lt;p>In other news, I am not so sure I want to stay with hugo. The popularity of jekyll really helps with finding themes and general documentation for me.&lt;/p>
+&lt;p>Been a while&lt;/p>
+&lt;ul>
+&lt;li>Jack&lt;/li>
+&lt;/ul></description></item></channel></rss>
