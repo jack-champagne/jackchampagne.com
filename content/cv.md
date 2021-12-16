@@ -75,7 +75,4 @@ Spring 2021 (*Ongoing*) \-
 * Duxbury Crew Team (2015 - 2016)
 * Duxbury Ski Team (2014 - 2015, 2016 - 2017)
 * Franconia Ski Club (2012 - 2018)
-<<<<<<< HEAD
 * Real club 321
-=======
->>>>>>> a175e09b834bd7cfb9af89ca3b6372a0e373af4c
