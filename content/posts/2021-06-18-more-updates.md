@@ -1,7 +1,7 @@
 ---
 title: Slow roll of changes
 description: Very slow
-date: 2021-6-18
+date: 2021-06-18
 draft: false
 categories:
 - Development
