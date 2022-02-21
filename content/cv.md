@@ -57,11 +57,25 @@ Fall 2020 \-
 Winter 2020-2021 \-
 * Introduction to Computation (Computer Science 250)
 
-Spring 2021 (*Ongoing*) \- 
+Spring 2021 \- 
 * Reasoning Under Uncertainty (Computer Science 240)
 * Writing in Mathematics (Math 370)
 * Statistics II (Statistics 516)
 * Linear Algebra for Applied Mathematics (Math 545)
+
+Fall 2021 \-
+* Computer Systems Principles (Computer Science 230)
+* Introduction to Algorithms (Computer Science 311)
+* Intro to abstract algebra (Math 411)
+* Regression & Analysis of Variance (Statistics 525)
+
+Spring 2022 (*Ongoing*)\-
+* Programming Methodology (Computer Science 220)
+* Intro to Computer Graphics (Computer Science 373)
+* Combinitorics and Graph Theory (Computer Science 575)
+* Statistical Computing (Statistiscs 535)
+* Independent Study "Wave Propagation in non-homogeneous medium with Prof. Wei Zhu" (Math 596)
+
 
 #### Duxbury High School: Class of 2019
 
