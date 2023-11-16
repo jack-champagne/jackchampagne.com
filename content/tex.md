@@ -12,6 +12,8 @@ draft: false
 iframe { margin: auto; }
 </style>
 
+This page is an exploration of MathJax LaTeX rendering and adding various iframes (desmos) across a complex page.
+
 ## Intro to functions
 
 Ok so for the first exploration of this page, I thought it would be excellent to discuss some basic math. My goal for this page is to be able to read it from bottom to top and for nearly everyone with a basic high-school level of math to be able to understand *visually* some important aspects of math. 

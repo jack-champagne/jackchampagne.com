@@ -89,4 +89,4 @@ Spring 2022 (*Ongoing*)\-
 * Duxbury Crew Team (2015 - 2016)
 * Duxbury Ski Team (2014 - 2015, 2016 - 2017)
 * Franconia Ski Club (2012 - 2018)
-* Real club 321
+* Advanced Machine Learning Club - University of Massachusetts Amherst (2022) 
