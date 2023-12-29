@@ -13,7 +13,7 @@ tags:
 - Mathematics
 ---
 
-This is a bit of a continuation of the last post [here](/2023-12-26-minimal-representations.md)
+This is a bit of a continuation of the last post [here](/posts/2023-12-26-minimal-representations.md)
 
 I have implemented a very simple permutation group bit of code. The idea behind the design of this showcases why I think algebraic type systems are so powerful. Simply put, only operations between permutations that act on the same number of objects make any sense. This of course is usually not a problem when the permutations are of different lengths, its always easy to insert an identity map to additional elements on the smaller of the two then proceed, but leveraging rusts type system to ensure that operations accept operands of the same group is a powerful thing.
 
