@@ -1,3 +1,4 @@
+---
 title: Permutations in Rust Code 
 description: 
 date: 2023-12-28
