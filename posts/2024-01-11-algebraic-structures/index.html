@@ -1,0 +1,52 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><title>Modeling Algebraic Structures | Tidbits</title><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=description content="This is a bit of a continuation of the last post here
+Cyclic groups were implemented since the last post and both now implement a generic Group trait. This comes with its own unique benefits and drawbacks. The benefit is that a set of operations that every Group must implement can be defined and centralized in a single spot in source - thus the definition of the interface provided. The downside is that the way I currently have the Group trait implemented and its generic associates with some methods returning Self - I am now fighting my way through the limitations of Rusts dynamic dispacting."><meta name=author content="Jack Champagne"><meta name=generator content="Hugo 0.71.1"><link href=/index.xml rel=alternate type=application/rss+xml title="Tidbits Feed"><link rel=stylesheet href=/style.7c6d960b20273ed88bc63a60591a57e7739fb21f243b77f27c3bc730ef6205c0.css><script defer src=/script.9df38729991a6ec08d83b60514e841529cebd5ccc800cf8e1f98fb63e73aaa73.js></script></head><body><div class=pure-g><div class="pure-u-1-24 pure-u-md-5-24"></div><div class="pure-u-22-24 pure-u-md-14-24"><div class=navigation><div class="navigation-header clearfix"><div class="pure-menu pure-menu-horizontal"><a class="pure-menu-heading pure-menu-link" href=/>Tidbits</a><ul class="pure-menu-list navigation-header-subtitle pull-end"><li class="pure-menu-item pure-menu-disabled">A Journal</li></ul></div></div><div class=navigation-content><div class="pure-menu pure-menu-horizontal"><ul class=pure-menu-list><li class=pure-menu-item title="All posts"><a class=pure-menu-link href=/posts/>Posts</a></li><li class=pure-menu-item title="All categories"><a class=pure-menu-link href=/categories/>Categories</a></li><li class=pure-menu-item title="All series"><a class=pure-menu-link href=/series/>Series</a></li><li class=pure-menu-item title="All tags"><a class=pure-menu-link href=/tags/>Tags</a></li></ul></div></div></div><div><div><h2 class=post-title>Modeling Algebraic Structures</h2><div class=post-meta><span>Date</span> [
+<time datetime=2024-01-11T00:00:00Z>Thu, 11 Jan 2024 00:00:00 UTC</time>
+]
+<span>Categories</span> [
+<a href=/categories/personal>Personal</a>
+<a href=/categories/journal>Journal</a>
+<a href=/categories/development>Development</a>
+]
+<span>Tags</span> [
+<a href=/tags/personal>Personal</a>
+<a href=/tags/journal>Journal</a>
+<a href=/tags/mathematics>Mathematics</a>
+]</div></div><div><p>This is a bit of a continuation of the last post <a href=/posts/2023-12-28-permutations-in-rust.md>here</a></p><p>Cyclic groups were implemented since the last post and both now implement a generic <code>Group</code> trait. This comes with its
+own unique benefits and drawbacks. The benefit is that a set of operations that every <code>Group</code> must implement can be defined
+and centralized in a single spot in source - thus the definition of the interface provided. The downside is that the way
+I currently have the <code>Group</code> trait implemented and its generic associates with some methods returning <code>Self</code> - I am now fighting
+my way through the limitations of Rusts dynamic dispacting. Specifically fighting my way through this problem:</p><div class=highlight><pre class=chroma><code class=language-fallback data-lang=fallback>error[E0038]: the trait `Group` cannot be made into an object
+  --&gt; groups/src/lib.rs:34:25
+   |
+34 |     components: Vec&lt;Box&lt;dyn Group&gt;&gt;,
+   |                         ^^^^^^^^^ `Group` cannot be made into an object
+   |
+note: for a trait to be &#34;object safe&#34; it needs to allow building a vtable to allow the call to be resolvable dynamically; for more information visit &lt;https://doc.rust-lang.org/reference/items/traits.html#object-safety&gt;
+  --&gt; groups/src/lib.rs:26:25
+   |
+25 | pub trait Group {
+   |           ----- this trait cannot be made into an object...
+26 |     fn op(&amp;self, other: &amp;Self) -&gt; Self;
+   |                         ^^^^^ ...because method `op` references the `Self` type in this parameter
+27 |
+28 |     fn inv(&amp;self) -&gt; Self;
+   |                      ^^^^ ...because method `inv` references the `Self` type in its return type
+29 |
+30 |     fn identity() -&gt; Self;
+   |        ^^^^^^^^ ...because associated function `identity` has no `self` parameter
+   = help: consider moving `op` to another trait
+   = help: consider moving `inv` to another trait
+help: consider turning `identity` into a method by giving it a `&amp;self` argument
+   |
+30 |     fn identity(&amp;self) -&gt; Self;
+   |                 +++++
+help: alternatively, consider constraining `identity` so it does not apply to trait objects
+   |
+30 |     fn identity() -&gt; Self where Self: Sized;
+   |                           +++++++++++++++++
+
+For more information about this error, try `rustc --explain E0038`.
+</code></pre></div><p>The useful reading is of course in <a href=https://doc.rust-lang.org/reference/items/traits.html#object-safety>the docs</a></p><p>and the output of <code>rustc --explain E0038</code> is also helpful.</p><p>This is unfortunate however, and I am worried that I won&rsquo;t be able to have the interfaces and datastructures I desire to model
+the next part - direct products of groups. I always imagined them as tuples where each component of the tuple was an element of
+that specific component&rsquo;s group. Like for the group <code>S_4</code> and <code>C_4</code> denoting the permutation group on 4 elements and the cyclic
+group of order 4 respectively, <code>a ∈ S_4 x C_4</code> where <code>a = (a_1, a_2) s.t. a_1 ∈ S_4 and a_2 ∈ C_4</code>. Ideally, the source code, datastructures, and interface would closely resemble this and yet I have this problem. Guess I have some reading to do on those pages - and maybe on generic associated types? (GATs)</p><p>Putting this on pause for a little bit to do some homelab-ing/life stuff/organization.</p><ul><li>Jack</li></ul></div></div><div class=footer><div class="pure-menu pure-menu-horizontal"><ul class=pure-menu-list><li class=pure-menu-item title="Theme repository"><a class=pure-menu-link href=https://github.com/jack-champagne/jack-champagne.github.io>GitHub</a></li><li class=pure-menu-item title="Theme page on gohugo.io"><a class=pure-menu-link href=https://themes.gohugo.io/slick>Slick</a></li><li class=pure-menu-item title=Top><a class=pure-menu-link href=#>To Top</a></li><li class=pure-menu-item title="RSS Feed"><a href=/index.xml class=pure-menu-link>RSS</a></li><li class="pure-menu-item fix-cursor-pointer" title="Go to top"><a class=pure-menu-link id=btn-gototop><span class=fix-placement-up>&#8679;&#xfe0e;</span></a></li></ul></div><div class="pure-menu pure-menu-horizontal"><ul class=pure-menu-list><li class="pure-menu-item pure-menu-disabled">&copy; 2024 &mdash; Jack Champagne — All rights reserved.</li></ul></div></div></div><div class="pure-u-1-24 pure-u-md-5-24"></div></div></body></html>

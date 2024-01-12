@@ -1,4 +1,49 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Personal on Tidbits</title><link>https://jack-champagne.github.io/categories/personal/</link><description>Recent content in Personal on Tidbits</description><generator>Hugo 0.71.1 -- gohugo.io</generator><language>en</language><managingEditor>jackchampagne.r@gmail.com (Jack Champagne)</managingEditor><webMaster>jackchampagne.r@gmail.com (Jack Champagne)</webMaster><copyright>Jack Champagne — All rights reserved.</copyright><lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jack-champagne.github.io/categories/personal/index.xml" rel="self" type="application/rss+xml"/><item><title>Permutations in Rust Code</title><link>https://jack-champagne.github.io/posts/2023-12-28-permutations-in-rust/</link><pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/posts/2023-12-28-permutations-in-rust/</guid><description>&lt;p>This is a bit of a continuation of the last post &lt;a href="https://jack-champagne.github.io/posts/2023-12-26-minimal-representations.md">here&lt;/a>&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Personal on Tidbits</title><link>https://jack-champagne.github.io/categories/personal/</link><description>Recent content in Personal on Tidbits</description><generator>Hugo 0.71.1 -- gohugo.io</generator><language>en</language><managingEditor>jackchampagne.r@gmail.com (Jack Champagne)</managingEditor><webMaster>jackchampagne.r@gmail.com (Jack Champagne)</webMaster><copyright>Jack Champagne — All rights reserved.</copyright><lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jack-champagne.github.io/categories/personal/index.xml" rel="self" type="application/rss+xml"/><item><title>Modeling Algebraic Structures</title><link>https://jack-champagne.github.io/posts/2024-01-11-algebraic-structures/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/posts/2024-01-11-algebraic-structures/</guid><description>&lt;p>This is a bit of a continuation of the last post &lt;a href="https://jack-champagne.github.io/posts/2023-12-28-permutations-in-rust.md">here&lt;/a>&lt;/p>
+&lt;p>Cyclic groups were implemented since the last post and both now implement a generic &lt;code>Group&lt;/code> trait. This comes with its
+own unique benefits and drawbacks. The benefit is that a set of operations that every &lt;code>Group&lt;/code> must implement can be defined
+and centralized in a single spot in source - thus the definition of the interface provided. The downside is that the way
+I currently have the &lt;code>Group&lt;/code> trait implemented and its generic associates with some methods returning &lt;code>Self&lt;/code> - I am now fighting
+my way through the limitations of Rusts dynamic dispacting. Specifically fighting my way through this problem:&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">error[E0038]: the trait `Group` cannot be made into an object
+--&amp;gt; groups/src/lib.rs:34:25
+|
+34 | components: Vec&amp;lt;Box&amp;lt;dyn Group&amp;gt;&amp;gt;,
+| ^^^^^^^^^ `Group` cannot be made into an object
+|
+note: for a trait to be &amp;#34;object safe&amp;#34; it needs to allow building a vtable to allow the call to be resolvable dynamically; for more information visit &amp;lt;https://doc.rust-lang.org/reference/items/traits.html#object-safety&amp;gt;
+--&amp;gt; groups/src/lib.rs:26:25
+|
+25 | pub trait Group {
+| ----- this trait cannot be made into an object...
+26 | fn op(&amp;amp;self, other: &amp;amp;Self) -&amp;gt; Self;
+| ^^^^^ ...because method `op` references the `Self` type in this parameter
+27 |
+28 | fn inv(&amp;amp;self) -&amp;gt; Self;
+| ^^^^ ...because method `inv` references the `Self` type in its return type
+29 |
+30 | fn identity() -&amp;gt; Self;
+| ^^^^^^^^ ...because associated function `identity` has no `self` parameter
+= help: consider moving `op` to another trait
+= help: consider moving `inv` to another trait
+help: consider turning `identity` into a method by giving it a `&amp;amp;self` argument
+|
+30 | fn identity(&amp;amp;self) -&amp;gt; Self;
+| +++++
+help: alternatively, consider constraining `identity` so it does not apply to trait objects
+|
+30 | fn identity() -&amp;gt; Self where Self: Sized;
+| +++++++++++++++++
+For more information about this error, try `rustc --explain E0038`.
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The useful reading is of course in &lt;a href="https://doc.rust-lang.org/reference/items/traits.html#object-safety">the docs&lt;/a>&lt;/p>
+&lt;p>and the output of &lt;code>rustc --explain E0038&lt;/code> is also helpful.&lt;/p>
+&lt;p>This is unfortunate however, and I am worried that I won&amp;rsquo;t be able to have the interfaces and datastructures I desire to model
+the next part - direct products of groups. I always imagined them as tuples where each component of the tuple was an element of
+that specific component&amp;rsquo;s group. Like for the group &lt;code>S_4&lt;/code> and &lt;code>C_4&lt;/code> denoting the permutation group on 4 elements and the cyclic
+group of order 4 respectively, &lt;code>a ∈ S_4 x C_4&lt;/code> where &lt;code>a = (a_1, a_2) s.t. a_1 ∈ S_4 and a_2 ∈ C_4&lt;/code>. Ideally, the source code, datastructures, and interface would closely resemble this and yet I have this problem. Guess I have some reading to do on those pages - and maybe on generic associated types? (GATs)&lt;/p>
+&lt;p>Putting this on pause for a little bit to do some homelab-ing/life stuff/organization.&lt;/p>
+&lt;ul>
+&lt;li>Jack&lt;/li>
+&lt;/ul></description></item><item><title>Permutations in Rust Code</title><link>https://jack-champagne.github.io/posts/2023-12-28-permutations-in-rust/</link><pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/posts/2023-12-28-permutations-in-rust/</guid><description>&lt;p>This is a bit of a continuation of the last post &lt;a href="https://jack-champagne.github.io/posts/2023-12-26-minimal-representations">here&lt;/a>&lt;/p>
 &lt;p>I have implemented a very simple permutation group bit of code. The idea behind the design of this showcases why I think algebraic type systems are so powerful. Simply put, only operations between permutations that act on the same number of objects make any sense. This of course is usually not a problem when the permutations are of different lengths, its always easy to insert an identity map to additional elements on the smaller of the two then proceed, but leveraging rusts type system to ensure that operations accept operands of the same group is a powerful thing.&lt;/p>
 &lt;p>I decided that the representation of a permutation should be an array. Each index of the array contains what that element maps to. If I wanted to represent a permutation in which 2 items swap, in cycle notation it would be written like so: (1 2).&lt;/p>
 &lt;p>Looking at the internal array for this permutation, it looks a bit strange: [2, 1]. There is a bit of a tension here between standard mathematical notation and computer programming, although unimportant. In standard permutation notation, 1 is the first element. Thus this array is saying that 1 maps to 2, and 2 maps to 1. Of course in code, the indexcies are off by one. Why does an internal implementation conform to such arbitrary standards? Mainly cause of my comfort with existing notation.&lt;/p>
