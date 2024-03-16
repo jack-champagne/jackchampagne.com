@@ -19,7 +19,7 @@ Cyclic groups were implemented since the last post and both now implement a gene
 own unique benefits and drawbacks. The benefit is that a set of operations that every `Group` must implement can be defined
 and centralized in a single spot in source - thus the definition of the interface provided. The downside is that the way 
 I currently have the `Group` trait implemented and its generic associates with some methods returning `Self` - I am now fighting
-my way through the limitations of Rusts dynamic dispacting. Specifically fighting my way through this problem:
+my way through the limitations of Rusts dynamic dispatching. Specifically fighting my way through this problem:
 
 ```
 error[E0038]: the trait `Group` cannot be made into an object
