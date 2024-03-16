@@ -14,7 +14,7 @@
 own unique benefits and drawbacks. The benefit is that a set of operations that every <code>Group</code> must implement can be defined
 and centralized in a single spot in source - thus the definition of the interface provided. The downside is that the way
 I currently have the <code>Group</code> trait implemented and its generic associates with some methods returning <code>Self</code> - I am now fighting
-my way through the limitations of Rusts dynamic dispacting. Specifically fighting my way through this problem:</p><div class=highlight><pre class=chroma><code class=language-fallback data-lang=fallback>error[E0038]: the trait `Group` cannot be made into an object
+my way through the limitations of Rusts dynamic dispatching. Specifically fighting my way through this problem:</p><div class=highlight><pre class=chroma><code class=language-fallback data-lang=fallback>error[E0038]: the trait `Group` cannot be made into an object
   --&gt; groups/src/lib.rs:34:25
    |
 34 |     components: Vec&lt;Box&lt;dyn Group&gt;&gt;,

@@ -3,7 +3,7 @@
 own unique benefits and drawbacks. The benefit is that a set of operations that every &lt;code>Group&lt;/code> must implement can be defined
 and centralized in a single spot in source - thus the definition of the interface provided. The downside is that the way
 I currently have the &lt;code>Group&lt;/code> trait implemented and its generic associates with some methods returning &lt;code>Self&lt;/code> - I am now fighting
-my way through the limitations of Rusts dynamic dispacting. Specifically fighting my way through this problem:&lt;/p>
+my way through the limitations of Rusts dynamic dispatching. Specifically fighting my way through this problem:&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">error[E0038]: the trait `Group` cannot be made into an object
 --&amp;gt; groups/src/lib.rs:34:25
 |
