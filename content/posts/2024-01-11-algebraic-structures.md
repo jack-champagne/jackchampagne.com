@@ -13,7 +13,7 @@ tags:
 - Mathematics
 ---
 
-This is a bit of a continuation of the last post [here](/posts/2023-12-28-permutations-in-rust.md)
+This is a bit of a continuation of the last post [here](/posts/2023-12-28-permutations-in-rust)
 
 Cyclic groups were implemented since the last post and both now implement a generic `Group` trait. This comes with its
 own unique benefits and drawbacks. The benefit is that a set of operations that every `Group` must implement can be defined
