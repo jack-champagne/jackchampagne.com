@@ -11,7 +11,7 @@ Cyclic groups were implemented since the last post and both now implement a gene
 <a href=/tags/personal>Personal</a>
 <a href=/tags/journal>Journal</a>
 <a href=/tags/mathematics>Mathematics</a>
-]</div></div><div><p>This is a bit of a continuation of the last post <a href=/posts/2023-12-28-permutations-in-rust.md>here</a></p><p>Cyclic groups were implemented since the last post and both now implement a generic <code>Group</code> trait. This comes with its
+]</div></div><div><p>This is a bit of a continuation of the last post <a href=/posts/2023-12-28-permutations-in-rust>here</a></p><p>Cyclic groups were implemented since the last post and both now implement a generic <code>Group</code> trait. This comes with its
 own unique benefits and drawbacks. The benefit is that a set of operations that every <code>Group</code> must implement can be defined
 and centralized in a single spot in source - thus the definition of the interface provided. The downside is that the way
 I currently have the <code>Group</code> trait implemented and its generic associates with some methods returning <code>Self</code> - I am now fighting

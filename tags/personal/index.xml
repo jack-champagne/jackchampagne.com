@@ -6,7 +6,7 @@
 &lt;p>Till next time&lt;/p>
 &lt;ul>
 &lt;li>Jack&lt;/li>
-&lt;/ul></description></item><item><title>Modeling Algebraic Structures</title><link>https://jack-champagne.github.io/posts/2024-01-11-algebraic-structures/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/posts/2024-01-11-algebraic-structures/</guid><description>&lt;p>This is a bit of a continuation of the last post &lt;a href="https://jack-champagne.github.io/posts/2023-12-28-permutations-in-rust.md">here&lt;/a>&lt;/p>
+&lt;/ul></description></item><item><title>Modeling Algebraic Structures</title><link>https://jack-champagne.github.io/posts/2024-01-11-algebraic-structures/</link><pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate><author>jackchampagne.r@gmail.com (Jack Champagne)</author><guid isPermaLink="true">https://jack-champagne.github.io/posts/2024-01-11-algebraic-structures/</guid><description>&lt;p>This is a bit of a continuation of the last post &lt;a href="https://jack-champagne.github.io/posts/2023-12-28-permutations-in-rust">here&lt;/a>&lt;/p>
 &lt;p>Cyclic groups were implemented since the last post and both now implement a generic &lt;code>Group&lt;/code> trait. This comes with its
 own unique benefits and drawbacks. The benefit is that a set of operations that every &lt;code>Group&lt;/code> must implement can be defined
 and centralized in a single spot in source - thus the definition of the interface provided. The downside is that the way
